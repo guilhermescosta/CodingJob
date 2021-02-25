@@ -523,7 +523,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 354407715}
-        m_MethodName: openIde
+        m_MethodName: openIde1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -652,7 +652,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 354407715}
-        m_MethodName: openEmail
+        m_MethodName: openEmail1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

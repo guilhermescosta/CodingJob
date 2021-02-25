@@ -9,42 +9,66 @@ EditorBuildSettings:
     path: Assets/Scenes/0-StartMenu/title.unity
     guid: 522455192fe20424e9da278eb95bd192
   - enabled: 1
-    path: Assets/Scenes/1-1.Opening/1-1Opening.unity
-    guid: 69402320e8f396c4c8a362c865c16ba8
-  - enabled: 1
-    path: Assets/Scenes/1-1.Opening/1-2Opening.unity
-    guid: f4f8fe399845a8f41a858adae3159487
-  - enabled: 1
-    path: Assets/Scenes/1-1.Opening/1-3Opening.unity
-    guid: a2fa70c4d7d5085488a41bde55d43fab
-  - enabled: 1
-    path: Assets/Scenes/1-1.Opening/1-4Opening.unity
-    guid: e410f24d23a62564dbeb5d5f954da5f6
-  - enabled: 1
-    path: Assets/Scenes/1-1.Opening/1-5Opening.unity
-    guid: c44f293d4e0c3fd4eb6809372b10903f
-  - enabled: 1
-    path: Assets/Scenes/1-2.Stage 1/Tutorial_1.unity
-    guid: b4802643fbb427740b2fe8c1fbfba35c
-  - enabled: 1
-    path: Assets/Scenes/1-2.Stage 1/1-playerRoom.unity
-    guid: c946c2ff66fa2544c9fc20d0b3f17c1e
-  - enabled: 1
     path: Assets/Scenes/1-2.Stage 1/1-os.unity
     guid: 076f86ff1bd08784583bd8a032c95f95
-  - enabled: 1
-    path: Assets/Scenes/1-2.Stage 1/1-IDE.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/1-2.Stage 1/1-email.unity
     guid: b3acb4e1c1928ed44b1254fd32c5e3bc
   - enabled: 1
-    path: Assets/Scenes/3-Stage 3/3-IDE.unity
-    guid: b3b7a5306c4822e468bdfc837b343e09
+    path: Assets/Scenes/1-2.Stage 1/1-IDE.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/2-Stage 2/2-os.unity
+    guid: 372e936ab0c8e654685e27a8e06e3fb2
+  - enabled: 1
+    path: Assets/Scenes/2-Stage 2/2-email.unity
+    guid: dabe989aefb82314dba6b177878f16b5
   - enabled: 1
     path: Assets/Scenes/2-Stage 2/2-IDE.unity
     guid: 93be8835c2642ad4582839946c6b4e2a
   - enabled: 1
+    path: Assets/Scenes/3-Stage 3/3-os.unity
+    guid: 7a4918ba34618fd498c0f882c94dfdd4
+  - enabled: 1
+    path: Assets/Scenes/3-Stage 3/3-email.unity
+    guid: da64c5fc001cb0d449f1f3a29c91227d
+  - enabled: 1
+    path: Assets/Scenes/3-Stage 3/3-IDE.unity
+    guid: b3b7a5306c4822e468bdfc837b343e09
+  - enabled: 1
+    path: Assets/Scenes/4-Stage 4/4-os.unity
+    guid: ee6005b2ad65e0d43a706237148a7edb
+  - enabled: 1
+    path: Assets/Scenes/4-Stage 4/4-email.unity
+    guid: 4b1439447fd87e44ca06cbb069ddccbf
+  - enabled: 1
     path: Assets/Scenes/4-Stage 4/4-IDE.unity
     guid: f873f080a74d0bb4b8757ba223438afc
+  - enabled: 1
+    path: Assets/Scenes/5-Stage 5/5-email.unity
+    guid: 841d4272b7140e9439fd249abe0a13a2
+  - enabled: 1
+    path: Assets/Scenes/5-Stage 5/5-IDE.unity
+    guid: 3a42b922a9f517647925807d3dfbb139
+  - enabled: 0
+    path: Assets/Scenes/1-1.Opening/1-1Opening.unity
+    guid: 69402320e8f396c4c8a362c865c16ba8
+  - enabled: 0
+    path: Assets/Scenes/1-1.Opening/1-2Opening.unity
+    guid: f4f8fe399845a8f41a858adae3159487
+  - enabled: 0
+    path: Assets/Scenes/1-1.Opening/1-3Opening.unity
+    guid: a2fa70c4d7d5085488a41bde55d43fab
+  - enabled: 0
+    path: Assets/Scenes/1-1.Opening/1-4Opening.unity
+    guid: e410f24d23a62564dbeb5d5f954da5f6
+  - enabled: 0
+    path: Assets/Scenes/1-1.Opening/1-5Opening.unity
+    guid: c44f293d4e0c3fd4eb6809372b10903f
+  - enabled: 0
+    path: Assets/Scenes/1-2.Stage 1/Tutorial_1.unity
+    guid: b4802643fbb427740b2fe8c1fbfba35c
+  - enabled: 0
+    path: Assets/Scenes/1-2.Stage 1/1-playerRoom.unity
+    guid: c946c2ff66fa2544c9fc20d0b3f17c1e
   m_configObjects: {}

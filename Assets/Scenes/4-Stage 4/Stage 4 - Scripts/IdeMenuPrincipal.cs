@@ -58,7 +58,7 @@ public class IdeMenuPrincipal : MonoBehaviour
             Debug.Log("erro");
             err1++;
         }
-        else if (string.Compare(varCase.text, "case" + " "+ "4 :" ) != 0)
+        else if (string.Compare(varCase.text, "case 4 :" ) != 0)
         {
             Debug.Log("erro 2");
             err2++;

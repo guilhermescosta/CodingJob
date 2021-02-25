@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Scripts\IdeCadastroFornecedor.cs" />
     <Compile Include="Assets\Scenes\3-Stage 3\Stage 3 - Scripts\IdeSystemInsurance.cs" />
     <Compile Include="Assets\Scenes\4-Stage 4\Stage 4 - Scripts\IdeMenuPrincipal.cs" />
+    <Compile Include="Assets\Scenes\5-Stage 5\Stage 5 - Scripts\IdeCupomFiscal.cs" />
     <Compile Include="Assets\Scripts\0-StartMenu\MainTitle.cs" />
     <Compile Include="Assets\Scripts\Action.cs" />
     <Compile Include="Assets\Scripts\Email.cs" />

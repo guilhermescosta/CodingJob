@@ -1490,7 +1490,7 @@ PrefabInstance:
     - target: {fileID: 8449696336246172676, guid: 8b41718093d15654a9920dcac04f237a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BackToOS
+      value: BackToOS4
       objectReference: {fileID: 0}
     - target: {fileID: 8449696336246172676, guid: 8b41718093d15654a9920dcac04f237a,
         type: 3}

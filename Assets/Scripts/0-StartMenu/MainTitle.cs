@@ -56,5 +56,17 @@ public class MainTitle : MonoBehaviour
     {
         selectCanvas.SetActive(false);
     }
+
+    public void Fase1()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void Fase2()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+  
 }
  
