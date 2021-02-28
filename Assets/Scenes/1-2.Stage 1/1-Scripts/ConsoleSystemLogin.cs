@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ConsoleSystemLogin : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class ConsoleSystemLogin : MonoBehaviour
     public Text output;
 
     public Lesson _lesson;
+    public GameObject telaFinal;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +23,16 @@ public class ConsoleSystemLogin : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Fim()
+    {
+        telaFinal.SetActive(true);
+    }
+
+    public void Encerrar()
+    {
+        SceneManager.LoadScene(0);
     }
 
     public void Result()
@@ -35,7 +48,8 @@ public class ConsoleSystemLogin : MonoBehaviour
         else
         {
             output.text = "Usuário Logado\nTeste Encerrado, reportar Haskell";
-            _lesson.aula = 2;
+            Fim();
+            //_lesson.aula = 2;
         }
     }
 

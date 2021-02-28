@@ -12,6 +12,8 @@ public class IdeCadastroFornecedor : MonoBehaviour
     public InputField command1;
     int err2;
 
+    public Text erros;
+    public GameObject panelFim;
     
 
     //   public GameObject commandIde;
@@ -31,16 +33,20 @@ public class IdeCadastroFornecedor : MonoBehaviour
 
     }
 
+  
+
     public void PlayButton()
     {
         if (string.Compare(var1.text, "scanf(\"%d\",&cnpj);") != 0)
         {
             Debug.Log("erro");
+            erros.text = "erro na linha 1 / scanf CNPJ";
             err1++;
         }
         else if (string.Compare(command1.text, "scanf(\"%s\",email);") != 0)
         {
             Debug.Log("erro 2");
+            erros.text = "erro na linha 2 / scanf email";
             err2++;
         }
 
@@ -48,10 +54,8 @@ public class IdeCadastroFornecedor : MonoBehaviour
         else
         {
             Debug.Log("Tudo Ok");
-            // commandIde.SetActive(true);
+            panelFim.SetActive(true);
             CreateText();
-
         }
-
     }
 }

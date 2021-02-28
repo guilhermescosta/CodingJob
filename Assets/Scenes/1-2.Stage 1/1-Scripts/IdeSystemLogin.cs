@@ -23,7 +23,7 @@ public class IdeSystemLogin : MonoBehaviour
     public GameObject commandIde;
 
     //  relatorio
-
+    public Text erros;
     
 
     public void CreateText()
@@ -57,11 +57,13 @@ public class IdeSystemLogin : MonoBehaviour
         {
             Debug.Log("erro");
             err1++;
+            erros.text = "Erro no primeiro campo da linha 1 ";
         }
         else if (string.Compare(command1.text, "strcmp(senha,pass);") != 0)
         {
             Debug.Log("erro 2");
             err2++;
+            erros.text += "Erro no segundo campo da linha 2 "; 
         }
 
         // linha 2
@@ -69,23 +71,27 @@ public class IdeSystemLogin : MonoBehaviour
         {
             Debug.Log("erro 3");
             err3++;
+            erros.text += "Erro no primeiro campo da linha 2 ";
         }
 
         else if (string.Compare(var3.text, "validaUsuario") != 0)
         {
             Debug.Log("erro 4");
             err4++;
+            erros.text += "Erro no segundo campo da linha 2 ";
         }
 
         else if (string.Compare(var4.text, "validaSenha;") != 0)
         {
             Debug.Log("erro 5");
-
+            err5++;
+            erros.text += "Erro no terceiro campo da linha 2 ";
         }
 
         else
         {
             Debug.Log("Tudo Ok");
+            erros.text += "Arquivo compilado com sucesso ";
             commandIde.SetActive(true);
             CreateText();
 

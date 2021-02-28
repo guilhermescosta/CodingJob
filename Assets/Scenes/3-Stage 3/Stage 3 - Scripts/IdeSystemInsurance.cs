@@ -14,6 +14,9 @@ public class IdeSystemInsurance : MonoBehaviour
     public InputField var2;
     int err3;
 
+    public Text erros;
+    public GameObject telaFinal;
+
  //   public GameObject commandIde;
 
     public void CreateText()
@@ -36,19 +39,17 @@ public class IdeSystemInsurance : MonoBehaviour
         // Debug.Log(string.Compare(var1.text, "validaSenha"));
         if (string.Compare(var1.text, "(idade>=18&&idade<30)") != 0)
         {
-            Debug.Log("erro");
+            erros.text = "erro na linha 1, condição If ";
             err1++;
         }
         else if (string.Compare(command1.text, "else if") != 0)
         {
-            Debug.Log("erro 2");
+            erros.text = "erro na linha 2, expressão condicional";
             err2++;
         }
-
-        // linha 2
-        else if (string.Compare(var2.text, "if(strcmp(doencaCronica,\"s\"")==0)
+        else if (string.Compare(var2.text, "else if(strcmp(doencaCronica,\"s\"")!=0)
         {
-            Debug.Log("erro 3");
+            erros.text = "erro na linha 3, expressão condicional + condição";
             err3++;
         }
 
@@ -57,7 +58,7 @@ public class IdeSystemInsurance : MonoBehaviour
         else
         {
             Debug.Log("Tudo Ok");
-           // commandIde.SetActive(true);
+            telaFinal.SetActive(true);
             CreateText();
 
         }

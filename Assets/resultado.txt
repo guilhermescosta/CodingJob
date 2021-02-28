@@ -17,4 +17,16 @@ Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado
 Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
 Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
 Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
+Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
+Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
+Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
+Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
+Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
+Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
+Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
+Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
+Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0Resultado 
 Fase 1 erro1: 0 erro2: 0 erro3: 0 erro4: 0 erro5: 0
+Fase 2 erro1: 0 erro2: 2
+Fase 2 erro1: 0 erro2: 1
+Fase 2 erro1: 1 erro2: 3 erro3: 0
