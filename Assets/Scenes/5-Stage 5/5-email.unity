@@ -1176,7 +1176,9 @@ MonoBehaviour:
   m_Text: "Ol\xE1 Alan, temos uma nova demanda.  \n\nPrecisamos da sua ajuda para
     desenvolver um sistema simples de caixa. Sua tarefa \xE9 desenvolver o cupom
     fiscal e o relat\xF3rio de vendas do dia. Para isso, \xE9 importante que voc\xEA
-    acerte os la\xE7os While e For do c\xF3digo.\n\n\nBoa sorte !\n--Haskell\r\n"
+    acerte os la\xE7os While e For do c\xF3digo.\nPara o la\xE7o for, voc\xEA deve
+    utilizar o contador de vendas no dia atrav\xE9s da vari\xE1vel vendasHoje.\nJ\xE1
+    o la\xE7o while deve ser \n\n\nBoa sorte !\n--Haskell\r\n"
 --- !u!222 &940946732
 CanvasRenderer:
   m_ObjectHideFlags: 0

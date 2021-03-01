@@ -47,9 +47,10 @@ public class IdeSystemInsurance : MonoBehaviour
             erros.text = "erro na linha 2, expressão condicional";
             err2++;
         }
-        else if (string.Compare(var2.text, "else if(strcmp(doencaCronica,\"s\"")!=0)
+        else if (string.Compare(var2.text, "else if(strcmp(doencaCronica,\"s\"))")!=0)
         {
             erros.text = "erro na linha 3, expressão condicional + condição";
+           //erros.text = 
             err3++;
         }
 

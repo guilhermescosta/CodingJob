@@ -14,13 +14,10 @@ public class IdeMenuPrincipal : MonoBehaviour
     public InputField varDefault;
     int err3;
 
-    public InputField var3;
-    int err4;
+    public Text erros;
+    public GameObject telaFinal;
 
-    public InputField var4;
-    int err5;
-
-//    public GameObject commandIde;
+    //    public GameObject commandIde;
 
     //  relatorio
 
@@ -35,14 +32,14 @@ public class IdeMenuPrincipal : MonoBehaviour
         }
         else
         {
-            string content = "Resultado \nFase 1 erro4: " + err1 + " erro2: " + err2 + " erro3: " + err3;
+            string content = "Resultado \nFase 4 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3;
             File.AppendAllText(path, content);
         }
     }
 
     private void Start()
     {
-        CreateText();
+
     }
 
     public void CloseCommand()
@@ -55,19 +52,20 @@ public class IdeMenuPrincipal : MonoBehaviour
         // Debug.Log(string.Compare(var1.text, "validaSenha"));
         if (string.Compare(varSwitch.text, "switch(valor)") != 0)
         {
-            Debug.Log("erro");
+            //Debug.Log("erro");
+            erros.text = "erro na linha 1, comando switch";
             err1++;
         }
-        else if (string.Compare(varCase.text, "case 4 :" ) != 0)
+        else if (string.Compare(varCase.text, "case 4:" ) != 0)
         {
-            Debug.Log("erro 2");
+            erros.text = "erro na linha 2, comando case";
             err2++;
         }
 
         // linha 2
         else if (string.Compare(varDefault.text, "default:") != 0)
         {
-            Debug.Log("erro 3");
+            erros.text = "erro na linha 3, tratamento de valores fora dos previstos";
             err3++;
         }
 
@@ -75,7 +73,7 @@ public class IdeMenuPrincipal : MonoBehaviour
         else
         {
             Debug.Log("Tudo Ok");
-          //  commandIde.SetActive(true);
+            telaFinal.SetActive(true);
             CreateText();
 
         }
