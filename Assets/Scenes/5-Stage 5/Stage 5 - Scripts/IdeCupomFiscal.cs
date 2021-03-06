@@ -22,12 +22,11 @@ public class IdeCupomFiscal : MonoBehaviour
         string path = Application.dataPath + "/resultado.txt";
         if (!File.Exists(path))
         {
-            File.WriteAllText(path, "Resultado \nFase 5 erro1: " + err1 + " erro2: " + err2);
+            File.WriteAllText(path, "\nFase 5 erro1: " + err1 + " erro2: " + err2);
         }
         else
         {
-            string content = "Resultado \nFase 5" +
-                " erro1: " + err1 + " erro2: " + err2;
+            string content = "\nFase 5" +" erro1: " + err1 + " erro2: " + err2;
             File.AppendAllText(path, content);
         }
     }

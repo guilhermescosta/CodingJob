@@ -24,11 +24,11 @@ public class IdeSystemInsurance : MonoBehaviour
         string path = Application.dataPath + "/resultado.txt";
         if (!File.Exists(path))
         {
-            File.WriteAllText(path, "Resultado \nFase 2 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3);
+            File.WriteAllText(path, "\nFase 3 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3);
         }
         else
         {
-            string content = "\nFase 2 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3;
+            string content = "\nFase 3 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3;
             File.AppendAllText(path, content);
         }
 

@@ -28,11 +28,11 @@ public class IdeMenuPrincipal : MonoBehaviour
         string path = Application.dataPath + "/resultado.txt";
         if (!File.Exists(path))
         {
-            File.WriteAllText(path, "Resultado \nFase 4 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3);
+            File.WriteAllText(path, "\nFase 4 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3);
         }
         else
         {
-            string content = "Resultado \nFase 4 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3;
+            string content = "\nFase 4 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3;
             File.AppendAllText(path, content);
         }
     }

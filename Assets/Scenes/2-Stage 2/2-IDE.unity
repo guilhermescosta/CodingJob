@@ -1606,7 +1606,7 @@ MonoBehaviour:
     email[30], endereco[120], confirmar[1];\r\n\r\nvoid Cadastro()\r\n{\r\r\nprintf(\"Digite
     o CNPJ do fornecedor (sem separador):\");\r\n\n\nprintf(\"Digite o nome do fornecedor:
     \");\r\nscanf(\"%s\", nomeFornecedor);\r\n\r\nprintf(\"\\nDigite o email do fornecedor:
-    \");\r\nscanf(\"%s\", email);\r\n\n\n\r"
+    \");\r\n\n\n\r"
 --- !u!222 &1060086317
 CanvasRenderer:
   m_ObjectHideFlags: 0

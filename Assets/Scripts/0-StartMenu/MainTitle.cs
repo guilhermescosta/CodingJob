@@ -67,6 +67,21 @@ public class MainTitle : MonoBehaviour
         SceneManager.LoadScene(4);
     }
 
-  
+    public void Fase3()
+    {
+        SceneManager.LoadScene(7);
+    }
+
+    public void Fase4()
+    {
+        SceneManager.LoadScene(10);
+    }
+
+    public void Fase5()
+    {
+        SceneManager.LoadScene(13);
+    }
+
+
 }
  

@@ -23,7 +23,7 @@ public class IdeCadastroFornecedor : MonoBehaviour
         string path = Application.dataPath + "/resultado.txt";
         if (!File.Exists(path))
         {
-            File.WriteAllText(path, "Resultado \nFase 2 erro1: " + err1 + " erro2: " + err2);
+            File.WriteAllText(path, "\nFase 2 erro1: " + err1 + " erro2: " + err2);
         }
         else
         {
@@ -39,13 +39,11 @@ public class IdeCadastroFornecedor : MonoBehaviour
     {
         if (string.Compare(var1.text, "scanf(\"%d\",&cnpj);") != 0)
         {
-            Debug.Log("erro");
             erros.text = "erro na linha 1 / scanf CNPJ";
             err1++;
         }
-        else if (string.Compare(command1.text, "scanf(\"%s\",email);") != 0)
+        if (string.Compare(command1.text, "scanf(\"%s\",email);") != 0)
         {
-            Debug.Log("erro 2");
             erros.text = "erro na linha 2 / scanf email";
             err2++;
         }
@@ -53,7 +51,6 @@ public class IdeCadastroFornecedor : MonoBehaviour
 
         else
         {
-            Debug.Log("Tudo Ok");
             panelFim.SetActive(true);
             CreateText();
         }
