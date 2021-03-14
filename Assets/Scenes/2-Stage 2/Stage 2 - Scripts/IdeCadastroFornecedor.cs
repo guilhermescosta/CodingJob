@@ -49,6 +49,11 @@ public class IdeCadastroFornecedor : MonoBehaviour
         }
 
 
+
+        if (string.Compare(var1.text, "scanf(\"%d\",&cnpj);") != 0 || string.Compare(command1.text, "scanf(\"%s\",email);") != 0)
+        {
+            Debug.Log("erro");
+        }
         else
         {
             panelFim.SetActive(true);

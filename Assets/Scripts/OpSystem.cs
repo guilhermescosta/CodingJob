@@ -43,7 +43,7 @@ public class OpSystem : MonoBehaviour
     public void openEmail5()
     {
 
-        SceneManager.LoadScene(11);
+        SceneManager.LoadScene(14);
     }
 
 
@@ -69,7 +69,7 @@ public class OpSystem : MonoBehaviour
 
     public void openIde5()
     {
-        SceneManager.LoadScene(12);
+        SceneManager.LoadScene(15);
     }
 
     public void CloseOS()               //versao teste:  volta para tela inicial 
@@ -99,7 +99,7 @@ public class OpSystem : MonoBehaviour
 
     public void BackToOS5()
     {
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(13);
     }
 
 }

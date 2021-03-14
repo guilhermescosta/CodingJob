@@ -42,10 +42,15 @@ public class IdeCupomFiscal : MonoBehaviour
 
 
         }
-        else if (string.Compare(varCase.text, "while(codOperacao==1)") != 0)
+        if (string.Compare(varCase.text, "while(codOperacao==1)") != 0)
         {
             erros.text = "erro na linha 2, comando while";
             err2++;
+        }
+
+        if (string.Compare(varSwitch.text, "for(int i=0; i<=vendasHoje; i++)") != 0 || string.Compare(varCase.text, "while(codOperacao==1)") != 0)
+        {
+            Debug.Log("erro");
         }
 
         else

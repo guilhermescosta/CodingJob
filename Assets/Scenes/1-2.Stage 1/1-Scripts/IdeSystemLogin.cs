@@ -84,9 +84,13 @@ public class IdeSystemLogin : MonoBehaviour
             erros.text = "Erro no terceiro campo da linha 2 ";
         }
 
-        
+
+        if (string.Compare(var1.text, "validaSenha") != 0 || string.Compare(command1.text, "strcmp(senha,pass);") != 0  || string.Compare(var2.text, "validou") != 0 || string.Compare(var3.text, "validaUsuario") != 0  || string.Compare(var4.text, "validaSenha;") != 0) {
+            Debug.Log("erro");
+        }
+        else
         {
-          //  Debug.Log("Tudo Ok");
+            //  Debug.Log("Tudo Ok");
             erros.text += "Arquivo compilado com sucesso ";
             commandIde.SetActive(true);
             CreateText();

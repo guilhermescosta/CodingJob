@@ -56,19 +56,24 @@ public class IdeMenuPrincipal : MonoBehaviour
             erros.text = "erro na linha 1, comando switch";
             err1++;
         }
-        else if (string.Compare(varCase.text, "case 4:" ) != 0)
+        if (string.Compare(varCase.text, "case 4:" ) != 0)
         {
             erros.text = "erro na linha 2, comando case";
             err2++;
         }
 
         // linha 2
-        else if (string.Compare(varDefault.text, "default:") != 0)
+        if (string.Compare(varDefault.text, "default:") != 0)
         {
             erros.text = "erro na linha 3, tratamento de valores fora dos previstos";
             err3++;
         }
 
+
+        if (string.Compare(varSwitch.text, "switch(valor)") != 0 || string.Compare(varSwitch.text, "switch(valor)") != 0 || string.Compare(varDefault.text, "default:") != 0)
+        {
+            Debug.Log("erro");
+        }
 
         else
         {

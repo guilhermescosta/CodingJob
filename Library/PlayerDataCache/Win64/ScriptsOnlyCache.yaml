@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - IdeSystemLogin
     - Lesson
     - MainTitle
+    - Notebook
     - OpSystem
     - ToolTip
     Unity.2D.Tilemap.Editor.dll:
@@ -41,8 +42,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/0-StartMenu/title.unity:
     - Class: 1
@@ -82,13 +81,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12062}
     - Class: 114
-      Script: {instanceID: 13116}
+      Script: {instanceID: 13118}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13742}
+      Script: {instanceID: 13744}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -145,11 +144,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 12780}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 12894}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13290}
+    - Class: 114
+      Script: {instanceID: 13744}
+    - Class: 114
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -200,11 +203,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13588}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -251,11 +254,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 13752}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -308,11 +311,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 12780}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 12894}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13290}
+    - Class: 114
+      Script: {instanceID: 13744}
+    - Class: 114
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -361,11 +368,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13588}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -412,11 +419,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 13752}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -469,11 +476,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 12780}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 12894}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13290}
+    - Class: 114
+      Script: {instanceID: 13744}
+    - Class: 114
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -522,11 +533,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13588}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -573,11 +584,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 13752}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -630,11 +641,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 12780}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 12894}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13290}
+    - Class: 114
+      Script: {instanceID: 13744}
+    - Class: 114
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -683,11 +698,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13588}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -734,11 +749,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 13752}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -789,13 +804,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12870}
+      Script: {instanceID: 12780}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 12872}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 12894}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13290}
+    - Class: 114
+      Script: {instanceID: 13744}
+    - Class: 114
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -844,11 +863,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13588}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -895,11 +914,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13288}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 13752}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 13804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1373,6 +1392,12 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkStartPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 8a09b4f5458b935643545d08f1bf5ba0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Notebook
   - hash:
       serializedVersion: 2
       Hash: 273db618aeba1df2c82d8a1fc1c31eea

@@ -42,19 +42,23 @@ public class IdeSystemInsurance : MonoBehaviour
             erros.text = "erro na linha 1, condição If ";
             err1++;
         }
-        else if (string.Compare(command1.text, "else if") != 0)
+        if (string.Compare(command1.text, "else if") != 0)
         {
             erros.text = "erro na linha 2, expressão condicional";
             err2++;
         }
-        else if (string.Compare(var2.text, "else if(strcmp(doencaCronica,\"s\"))")!=0)
+        if (string.Compare(var2.text, "else if(strcmp(doencaCronica,\"s\"))")!=0)
         {
             erros.text = "erro na linha 3, expressão condicional + condição";
            //erros.text = 
             err3++;
         }
 
-       
+
+        if (string.Compare(var1.text, "(idade>=18&&idade<30)") != 0 || string.Compare(command1.text, "else if") != 0 || string.Compare(var2.text, "else if(strcmp(doencaCronica,\"s\"))") != 0)
+        {
+            Debug.Log("erro");
+        }
 
         else
         {

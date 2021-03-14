@@ -3150,6 +3150,171 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1819214412}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1832801747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1836118914}
+    m_Modifications:
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -365.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 234.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 155
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 176
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088494206547999, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_Name
+      value: Notepad
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088495309768370, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088495309768371, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -529.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088495309768371, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 695.292
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088495562268762, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088495562268762, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 804.24207
+      objectReference: {fileID: 0}
+    - target: {fileID: 765088495562268763, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+        type: 3}
+      propertyPath: m_Text
+      value: "Ol\xE1 Alan, temos uma nova demanda.  \nEstamos produzindo um sistema
+        para uma pequena seguradora. Sua nova tarefa ser\xE1 produzir um sistema
+        que\navalie o segurado e gere uma pontua\xE7\xE3o que ser\xE1 avaliada por
+        um especialista.\n\nO formul\xE1rio deve abordar as seguintes informa\xE7\xF5es:\n\n-
+        Idade do segurado\nSe a idade do segurado estiver entre 18 e 29 anos, ele
+        recebe 20 pontos. Se estiver entre 30 e 59 anos, recebe 10 pontos. Se tiver
+        60 ou mais, recebe 5 pontos.\n\n- O segurado j\xE1 teve algum problema s\xE9rio
+        de sa\xFAde ?\n- O segurado tem alguma doen\xE7a cr\xF4nica ?\n- Existe hist\xF3rico
+        de doen\xE7a na fam\xEDlia do segurado ? \nSe para qualquer uma dessas quest\xF5es
+        a resposta for \"sim\" o sistema deve somar 5 pontos, caso contr\xE1rio somar\xE1
+        10.\n\nBoa sorte !\n--Haskell\r\n"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee578891275a8ef4b8c2937d0ae8ce27, type: 3}
+--- !u!224 &1832801748 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 765088494206547996, guid: ee578891275a8ef4b8c2937d0ae8ce27,
+    type: 3}
+  m_PrefabInstance: {fileID: 1832801747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1836118913
 GameObject:
   m_ObjectHideFlags: 0
@@ -3192,6 +3357,7 @@ RectTransform:
   - {fileID: 1229284757}
   - {fileID: 204894148}
   - {fileID: 1819214414}
+  - {fileID: 1832801748}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
