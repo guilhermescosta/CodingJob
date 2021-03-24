@@ -35,20 +35,22 @@ public class IdeCupomFiscal : MonoBehaviour
     public void PlayButton()
     {
         // Debug.Log(string.Compare(var1.text, "validaSenha"));
-        if (string.Compare(varSwitch.text, "for(int i=0; i<=vendasHoje; i++)") != 0)
+        
+        if (string.Compare(varCase.text.Replace(" ", ""), "while(codOperacao!=4)") != 0)
+        {
+            erros.text = "erro na linha 2, comando while";
+            err2++;
+        }
+
+        if (string.Compare(varSwitch.text.Replace(" ", ""), "for(inti=0;i<=vendasHoje;i++)") != 0)
         {
             erros.text = "erro na linha 1, comando for";
             err1++;
 
 
         }
-        if (string.Compare(varCase.text, "while(codOperacao==1)") != 0)
-        {
-            erros.text = "erro na linha 2, comando while";
-            err2++;
-        }
 
-        if (string.Compare(varSwitch.text, "for(int i=0; i<=vendasHoje; i++)") != 0 || string.Compare(varCase.text, "while(codOperacao==1)") != 0)
+        if (string.Compare(varSwitch.text.Replace(" ", ""), "for(inti=0;i<=vendasHoje;i++)") != 0 || string.Compare(varCase.text.Replace(" ", ""), "while(codOperacao!=4)") != 0)
         {
             Debug.Log("erro");
         }

@@ -718,7 +718,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Leitura da vari\xE1vel cnpj"
+  m_Text: "Leitura da vari\xE1vel telefone"
 --- !u!222 &441919511
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1603,11 +1603,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "#include <stdio.h>\r\n\r\nint cnpj;\r\nfloat fone;\r\nchar nomeFornecedor[40],
+  m_Text: "#include <stdio.h>\r\n\r\nfloat fone;\r\nchar cnpj[14], nomeFornecedor[40],
     email[30], endereco[120], confirmar[1];\r\n\r\nvoid Cadastro()\r\n{\r\r\nprintf(\"Digite
-    o CNPJ do fornecedor (sem separador):\");\r\n\n\nprintf(\"Digite o nome do fornecedor:
-    \");\r\nscanf(\"%s\", nomeFornecedor);\r\n\r\nprintf(\"\\nDigite o email do fornecedor:
-    \");\r\n\n\n\r"
+    o CNPJ do fornecedor (sem separador):\");\r\nscanf(\"%s\",cnpj);\n\nprintf(\"Digite
+    o nome do fornecedor: \");\r\nscanf(\"%s\",nomeFornecedor);\r\n\r\nprintf(\"\\nDigite
+    o email do fornecedor: \");\r\n\n\n\r"
 --- !u!222 &1060086317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1948,8 +1948,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -284, y: -74}
-  m_SizeDelta: {x: 187.96454, y: 30}
+  m_AnchoredPosition: {x: 117.21, y: 37}
+  m_SizeDelta: {x: 212.93774, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1468805564
 MonoBehaviour:
@@ -3312,7 +3312,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -284.9, y: -212}
+  m_AnchoredPosition: {x: -281.14, y: -193}
   m_SizeDelta: {x: 189.76639, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840766477
@@ -3485,10 +3485,10 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "printf(\"\\nDigite o endereco do fornecedor: \");\r\nscanf(\"%s\", endereco);\r\n\r\nprintf(\"\\nDigite
-    o telefone do fornecedor: \");\r\nscanf(\"%d\", &fone);\r\n\nprintf(\"\\nEncerrar
-    Cadastro( s/n )? \");\r\nscanf(\"%s\", confirmar);\r\n\r\nif(strcmp(confirmar,
-    \"s\")==0)     {\r\n        printf(\"Cadastro Concluido\");\r\n    }\r\n    else\r   
-    {\r\n        Cadastro();\r  \n   }   }\r\n\r"
+    o telefone do fornecedor: \");\r\n\r\n\nprintf(\"\\nEncerrar Cadastro( s/n )?
+    \");\r\nscanf(\"%s\", confirmar);\r\nif(strcmp(confirmar, \"s\")==0)     {\r\n       
+    printf(\"Cadastro Concluido\");\r\n    }\r\n    else\r    {\r\n        Cadastro();\r 
+    \n   }   }\r\n\r"
 --- !u!222 &1958036535
 CanvasRenderer:
   m_ObjectHideFlags: 0

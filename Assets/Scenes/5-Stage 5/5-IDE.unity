@@ -437,12 +437,14 @@ PrefabInstance:
     - target: {fileID: 765088495562268763, guid: ee578891275a8ef4b8c2937d0ae8ce27,
         type: 3}
       propertyPath: m_Text
-      value: "Ol\xE1 Alan, temos uma nova demanda.  \n\nPrecisamos da sua ajuda para
-        desenvolver um sistema simples de caixa. Sua tarefa \xE9 desenvolver o cupom
-        fiscal e o relat\xF3rio de vendas do dia. Para isso, \xE9 importante que
-        voc\xEA acerte os la\xE7os While e For do c\xF3digo.\nPara o la\xE7o for,
-        voc\xEA deve utilizar o contador de vendas no dia atrav\xE9s da vari\xE1vel
-        vendasHoje.\nJ\xE1 o la\xE7o while deve ser \n\n\nBoa sorte !\n--Haskell\r\n\n"
+      value: "Ol\xE1 Alan, temos uma nova demanda.  \r\n\r\nPrecisamos da sua ajuda
+        para desenvolver um sistema simples de caixa. Sua tarefa \xE9 desenvolver
+        o cupom fiscal e o relat\xF3rio de vendas do dia. Para isso, \xE9 importante
+        que voc\xEA acerte os la\xE7os While e For do c\xF3digo.\r\nPara o la\xE7o
+        for, voc\xEA deve utilizar o contador de vendas no dia atrav\xE9s da vari\xE1vel
+        vendasHoje.\r\nJ\xE1 o la\xE7o while deve verificar se a condi\xE7\xE3o \xE9
+        diferente da op\xE7\xE3o sair, se for igual, encerrar\xE1 o la\xE7o e finalizar\xE1
+        o programa.\r\n\r\n\r\nBoa sorte !\r\n--Haskell\r\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee578891275a8ef4b8c2937d0ae8ce27, type: 3}

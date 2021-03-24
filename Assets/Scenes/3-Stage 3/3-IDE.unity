@@ -192,9 +192,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "\nelse {\r\n    printf(\"valor invalido\");\n\t}\r\r\nprintf(\"Possui
     doenca cronica? (s/n)\");\r\nscanf(\"%s\", doencaCronica);\r\n\r    {\r\n       
-    pontosSeguro=pontosSeguro+5;\r\n    }\r\n\r\n    {\r\n         pontosSeguro=pontosSeguro+10;\r\n   
-    }\r\nelse\r\n    printf(\"valor invalido\");\r\n\r\nprintf(\"resultado final
-    %d\", pontosSeguro);\r\n}"
+    pontosSeguro=pontosSeguro+5;\r\n    }\r\n\r\n    {    pontosSeguro=pontosSeguro+10;
+    }\r\nelse\r { printf(\"valor invalido\");  }\r\nprintf(\"resultado final %d\",
+    pontosSeguro);  }"
 --- !u!222 &11942087
 CanvasRenderer:
   m_ObjectHideFlags: 0

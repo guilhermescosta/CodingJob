@@ -53,23 +53,10 @@ public class IdeSystemLogin : MonoBehaviour
 
     public void PlayButton()
     {
-        // Debug.Log(string.Compare(var1.text, "validaSenha"));
-        if (string.Compare(var1.text, "validaSenha") != 0)
+        if (string.Compare(var4.text, "validaSenha;") != 0)
         {
-            err1++;
-            erros.text = "Erro no primeiro campo da linha 1 ";
-        }
-         if (string.Compare(command1.text, "strcmp(senha,pass);") != 0)
-        {
-            err2++;
-            erros.text = "Erro no segundo campo da linha 2 "; 
-        }
-
-        // linha 2
-         if (string.Compare(var2.text, "validou") != 0)
-        {
-            err3++;
-            erros.text = "Erro no primeiro campo da linha 2 ";
+            err5++;
+            erros.text = "Erro no terceiro campo da linha 2 ";
         }
 
         if (string.Compare(var3.text, "validaUsuario") != 0)
@@ -78,10 +65,25 @@ public class IdeSystemLogin : MonoBehaviour
             erros.text = "Erro no segundo campo da linha 2 ";
         }
 
-        if (string.Compare(var4.text, "validaSenha;") != 0)
+        if (string.Compare(var2.text, "validou") != 0)
         {
-            err5++;
-            erros.text = "Erro no terceiro campo da linha 2 ";
+            err3++;
+            erros.text = "Erro no primeiro campo da linha 2 ";
+        }
+
+
+        if (string.Compare(command1.text.Replace(" ",""), "strcmp(senha,pass);") != 0)
+        {
+            err2++;
+            erros.text = "Erro no segundo campo da linha 1 ";
+            Debug.Log(command1.text);
+        }
+
+        // Debug.Log(string.Compare(var1.text, "validaSenha"));
+        if (string.Compare(var1.text, "validaSenha") != 0)
+        {
+            err1++;
+            erros.text = "Erro no primeiro campo da linha 1 ";
         }
 
 
@@ -91,7 +93,7 @@ public class IdeSystemLogin : MonoBehaviour
         else
         {
             //  Debug.Log("Tudo Ok");
-            erros.text += "Arquivo compilado com sucesso ";
+            erros.text = "Arquivo compilado com sucesso ";
             commandIde.SetActive(true);
             CreateText();
 

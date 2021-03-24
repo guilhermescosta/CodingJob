@@ -37,20 +37,23 @@ public class IdeCadastroFornecedor : MonoBehaviour
 
     public void PlayButton()
     {
-        if (string.Compare(var1.text, "scanf(\"%d\",&cnpj);") != 0)
+        //if (string.Compare(var1.text.Replace(" ",""), "(idade>=18&&idade<30)") != 0)
+        if (string.Compare(var1.text.Replace(" ",""), "scanf(\"%f\",&fone);") != 0)
         {
-            erros.text = "erro na linha 1 / scanf CNPJ";
+            erros.text = "erro na linha 2 / scanf Telefone";
+            Debug.Log(var1.text);
             err1++;
         }
-        if (string.Compare(command1.text, "scanf(\"%s\",email);") != 0)
+        if (string.Compare(command1.text.Replace(" ",""), "scanf(\"%s\",email);") != 0)
         {
-            erros.text = "erro na linha 2 / scanf email";
+            erros.text = "erro na linha 1 / scanf email";
+            Debug.Log(command1.text);
             err2++;
         }
 
 
 
-        if (string.Compare(var1.text, "scanf(\"%d\",&cnpj);") != 0 || string.Compare(command1.text, "scanf(\"%s\",email);") != 0)
+        if (string.Compare(var1.text.Replace(" ", ""), "scanf(\"%f\",&fone);") != 0 || string.Compare(command1.text.Replace(" ", ""), "scanf(\"%s\",email);") != 0)
         {
             Debug.Log("erro");
         }
