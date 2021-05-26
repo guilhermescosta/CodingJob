@@ -1710,5 +1710,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/5-Stage 5/5-os.unity
   - Assets/Scenes/5-Stage 5/5-email.unity
   - Assets/Scenes/5-Stage 5/5-IDE.unity
-  playerPath: C:/Users/guilh/Documents/GitHub/CodingJob/Executavel_Coding_Job/Coding
+  playerPath: C:/Users/guilh/Documents/GitHub/CodingJob/Executavel_CodingJob/Coding
     Job.exe

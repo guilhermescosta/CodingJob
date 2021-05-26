@@ -621,7 +621,7 @@ MonoBehaviour:
     primeiro projeto.\nEm breve Haskell e Pascal lhe enviaram suas tarefas.\n"
   _index: 0
   _gameText: {fileID: 532397227}
-  index_next_scene: 6
+  index_next_scene: 5
 --- !u!4 &1278156909
 Transform:
   m_ObjectHideFlags: 0
