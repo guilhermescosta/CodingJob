@@ -315,12 +315,12 @@ MonoBehaviour:
   - "Ada: Esse \xE9 Pascal, programador s\xEAnior e seu mentor."
   - "Pascal: Ol\xE1 Alan, vamos trabalhar com programa\xE7\xE3o C, espero que esteja
     afiado."
-  - "Pascal: Darei algumas dicas de como programar, mas n\xE3o se anime muito, vou
-    cobrar e muito. "
-  - 'Pascal: Seja bem vindo e vamos trabalhar !'
+  - "Pascal: Sempre que estiver com alguma d\xFAvida, acesse a ferramenta Chat App
+    e lhe ajudarei."
+  - "Pascal: Seja bem vindo e vamos come\xE7ar !"
   _index: 0
   _gameText: {fileID: 1151593034}
-  index_next_scene: 5
+  index_next_scene: 4
 --- !u!4 &404901062
 Transform:
   m_ObjectHideFlags: 0

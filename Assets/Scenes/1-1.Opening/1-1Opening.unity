@@ -992,7 +992,7 @@ MonoBehaviour:
   - "Espero n\xE3o me atrasar no meu primeiro dia."
   _index: 0
   _gameText: {fileID: 153831019}
-  index_next_scene: 2
+  index_next_scene: 1
 --- !u!4 &1254137440
 Transform:
   m_ObjectHideFlags: 0

@@ -617,8 +617,8 @@ MonoBehaviour:
   - "Ada: Essa \xE9 sua sala, voc\xEA pode decorar da forma que quiser."
   - "Ada: Seu computador j\xE1 possui todas as ferramentas necess\xE1rias para suas
     tarefas."
-  - "Ada: Fique de olho nos seus emails, j\xE1 enviei as especifica\xE7\xF5es do
-    primeiro projeto.\nEm breve Haskell e Pascal lhe enviaram suas tarefas.\n"
+  - "Ada: Fique de olho nos seus emails, Haskell ir\xE1 enviar todas as informa\xE7\xF5es
+    sobre suas atribui\xE7\xF5es."
   _index: 0
   _gameText: {fileID: 532397227}
   index_next_scene: 5

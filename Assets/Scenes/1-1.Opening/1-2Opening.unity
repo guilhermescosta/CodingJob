@@ -1050,7 +1050,7 @@ MonoBehaviour:
   - Vamos, vou apresentar a equipe.
   _index: 0
   _gameText: {fileID: 1166165260}
-  index_next_scene: 3
+  index_next_scene: 2
 --- !u!4 &1348082835
 Transform:
   m_ObjectHideFlags: 0

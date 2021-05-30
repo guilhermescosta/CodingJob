@@ -17,9 +17,17 @@ public class OpSystem : MonoBehaviour
         
     }
 
+    public void CloseOS()               //versao teste:  volta para tela inicial 
+    {
+        SceneManager.LoadScene(5);
+    }
+
+
+
+
     public void openEmail1() {
        
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(7);
     }
 
     public void openEmail2()
@@ -49,7 +57,7 @@ public class OpSystem : MonoBehaviour
 
     public void openIde1()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(9);
     }
 
     public void openIde2()
@@ -72,14 +80,9 @@ public class OpSystem : MonoBehaviour
         SceneManager.LoadScene(15);
     }
 
-    public void CloseOS()               //versao teste:  volta para tela inicial 
-    {
-        SceneManager.LoadScene(0);
-    }
-
     public void BackToOS1()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(6);
     }
 
     public void BackToOS2()

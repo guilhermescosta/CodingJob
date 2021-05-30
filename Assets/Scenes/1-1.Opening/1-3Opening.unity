@@ -585,15 +585,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text:
   - "Ada: Esse \xE9 Haskell, nosso engenheiro de software."
-  - "Ada: Ah sim ! Ol\xE1 Alan, bem vindo a Colossus Code !\nMe chamo Ada e sou a
-    gerente de projetos por aqui.\n"
-  - "Haskell: Ol\xE1 Alan, serei o respons\xE1vel por repassar os diagramas que voc\xEA
-    dever\xE1 seguir para desenvolver."
-  - 'Haskell: Se tiver alguma dificuldade com conceitos de engenharia de software,
-    converse comigo, minha sala esta sempre aberta.'
+  - "Haskell: Ol\xE1 Alan, serei o respons\xE1vel por repassar os projetos para voc\xEA."
+  - 'Haskell: Acesse os seus emails antes de iniciar o projeto e lhe darei algumas
+    dicas.'
   _index: 0
   _gameText: {fileID: 1540323144}
-  index_next_scene: 4
+  index_next_scene: 3
 --- !u!4 &917680936
 Transform:
   m_ObjectHideFlags: 0
