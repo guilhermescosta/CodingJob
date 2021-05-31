@@ -59,7 +59,7 @@ public class MainTitle : MonoBehaviour
 
     public void Fase1()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(6);
     }
 
     public void Fase2()

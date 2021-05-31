@@ -22,13 +22,34 @@ public class OpSystem : MonoBehaviour
         SceneManager.LoadScene(5);
     }
 
+    public void openEmail1()
+    {
 
-
-
-    public void openEmail1() {
-       
         SceneManager.LoadScene(7);
     }
+
+    public void openIde1()
+    {
+        SceneManager.LoadScene(8);
+    }
+
+    public void openChat1()
+    {
+        SceneManager.LoadScene(9);
+    }
+
+    public void BackToOS1()
+    {
+        SceneManager.LoadScene(6);
+    }
+
+
+
+
+
+
+
+
 
     public void openEmail2()
     {
@@ -55,10 +76,7 @@ public class OpSystem : MonoBehaviour
     }
 
 
-    public void openIde1()
-    {
-        SceneManager.LoadScene(9);
-    }
+
 
     public void openIde2()
     {
@@ -80,10 +98,7 @@ public class OpSystem : MonoBehaviour
         SceneManager.LoadScene(15);
     }
 
-    public void BackToOS1()
-    {
-        SceneManager.LoadScene(6);
-    }
+
 
     public void BackToOS2()
     {

@@ -524,7 +524,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 354407715}
-        m_MethodName: openIde1
+        m_MethodName: openChat1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
