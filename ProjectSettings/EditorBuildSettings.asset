@@ -30,7 +30,10 @@ EditorBuildSettings:
     path: Assets/Scenes/1-2.Stage 1/1-email.unity
     guid: b3acb4e1c1928ed44b1254fd32c5e3bc
   - enabled: 1
-    path: Assets/Scenes/1-2.Stage 1/1-IDE.unity
+    path: Assets/Scenes/1-2.Stage 1/1-1-IDE.unity
+    guid: 58e0be72e4142934db057f39afb1af7a
+  - enabled: 1
+    path: Assets/Scenes/1-2.Stage 1/1-2-IDE.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/1-2.Stage 1/1-chatPascal.unity
