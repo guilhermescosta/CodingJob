@@ -793,24 +793,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ol\xE1 Alan, espero que esteja pronto para come\xE7ar.\r\nSeu primeiro
-    projeto ser\xE1 desenvolver um cabe\xE7alho (Header) que fa\xE7a a verifica\xE7\xE3o
-    de login.\r\nPara isso, ir\xE1 desenvolver uma fun\xE7\xE3o que ir\xE1 receber
-    4 valores:\r\nusuario -> o nome nome de usu\xE1rio ir\xE1 digitar\r\nsenha ->
-    a senha que o usu\xE1rio ir\xE1 digitar\r\nuser -> uma consulta a um banco de
-    dados que verifica se o usu\xE1rio existe\r\npass -> consulta ao banco de dados
-    que confirma qual a senha est\xE1 relacionada ao user\r\n\r\nA estrutura b\xE1sica
-    da fun\xE7\xE3o est\xE1 pronta, apenas preciso que fa\xE7a a compara\xE7\xE3o
-    entre a senha digitada e a senha do banco de dados.\r\nLogo ap\xF3s, preciso
-    que utilize a vari\xE1vel \"validou\" para receber os valores de validaUsuario
-    e validaSenha.\r\nIsso porque essa fun\xE7\xE3o retorna um valor \"int\", se
-    esse valor for 0, quer dizer que a valida\xE7\xE3o deu certo. N\xE3o use espa\xE7o
-    entre os caracteres e n\xE3o esque\xE7a dos \";\"\r\n\r\nQuando estiver pronto,
-    aperte na seta verde para iniciar o teste. Se estiver tudo ok, a interface que
-    montei ir\xE1 aparecer na tela para voc\xEA testar o que voc\xEA construiu. \r\nEntre
-    com o usu\xE1rio \"haskell\" e com a senha \"senha123\" e clique no bot\xE3o
-    \"Confirmar\". Se tudo estiver ok, voc\xEA receber\xE1 uma resposta positiva. 
-    \r\n\r\n--Haskell\r\n"
+  m_Text: "\r\n\r\nOl\xE1 Alan, seu primeiro projeto ser\xE1 desenvolver um sistema
+    de autentica\xE7\xE3o para a MegaLoja. Seu papel \xE9 criar o design b\xE1sico
+    da tela.\r\nSua segunda tarefa ser\xE1 ler esses dados.\r\nPor fim, a \xFAltima
+    tarefa ser\xE1 validar os dados de usuario e senha.\r\n\r\nLembre sempre de utilizar
+    ; ao final de cada instru\xE7\xE3o e tenha muito cuidado com os espa\xE7os entre
+    os caracteres.\r\nQuando estiver pronto, aperte na seta verde para iniciar a
+    compila\xE7\xE3o do projeto.\r\n\r\nAgora acesse sua IDE e comece a programar.\r\n\r\n--Haskell"
 --- !u!222 &801173276
 CanvasRenderer:
   m_ObjectHideFlags: 0

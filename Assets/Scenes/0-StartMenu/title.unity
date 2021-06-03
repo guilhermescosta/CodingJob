@@ -4055,7 +4055,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Introdu\xE7\xE3o Linguagem de Programa\xE7\xE3o C\r\n"
+  m_Text: "Comandos de Entrada \ne Sa\xEDda"
 --- !u!222 &1946877176
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -23,3 +23,6 @@ Fase 2 erro1: 2 erro2: 0
 Fase 3 erro1: 0 erro2: 1 erro3: 2
 Fase 5 erro1: 1 erro2: 2
 Fase 1-1 erro1: 0 erro2: 0 erro3: 1
+Fase 1-2 erro1: 0 erro2: 0 erro3: 0 erro4: 0
+Fase 1-2 erro1: 0 erro2: 0 erro3: 0 erro4: 0
+Fase 1-2 erro1: 0 erro2: 0 erro3: 0 erro4: 0
