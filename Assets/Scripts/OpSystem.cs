@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class OpSystem : MonoBehaviour
 {
+    public GameData gameData;
+    private void Awake()
+    {
+        gameData = GameObject.Find("GameData").GetComponent<GameData>();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +35,13 @@ public class OpSystem : MonoBehaviour
 
     public void openIde1()
     {
-        SceneManager.LoadScene(8);
+        if(gameData.thisStage ==1 )
+            SceneManager.LoadScene(8);
+        if (gameData.thisStage == 2)
+            SceneManager.LoadScene(9);
+        if (gameData.thisStage == 3)
+            SceneManager.LoadScene(10);
+
     }
 
     public void openChat1()

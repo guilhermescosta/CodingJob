@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class IdeSystemLogin : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class IdeSystemLogin : MonoBehaviour
     int err5;
 
     public GameObject commandIde;
+
+    public GameObject telaFinal;
 
     //  relatorio
     public Text erros;
@@ -44,6 +47,11 @@ public class IdeSystemLogin : MonoBehaviour
     private void Start()
     {
       
+    }
+
+    public void Continuar()
+    {
+        SceneManager.LoadScene(5);
     }
 
     public void CloseCommand()
@@ -96,8 +104,8 @@ public class IdeSystemLogin : MonoBehaviour
             erros.text = "Arquivo compilado com sucesso ";
            // commandIde.SetActive(true);
             CreateText();
-
-        }
+            telaFinal.SetActive(true);
+}
 
     }
 }

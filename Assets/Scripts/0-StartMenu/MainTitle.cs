@@ -12,6 +12,12 @@ public class MainTitle : MonoBehaviour
 
     public GameObject selectCanvas;
 
+    public GameData gameData;
+
+    private void Awake()
+    {
+        gameData = GameObject.Find("GameData").GetComponent<GameData>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +65,7 @@ public class MainTitle : MonoBehaviour
 
     public void Fase1()
     {
+        gameData.thisStage = 1;
         SceneManager.LoadScene(6);
     }
 

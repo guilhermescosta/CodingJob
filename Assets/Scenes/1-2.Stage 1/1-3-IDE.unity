@@ -664,6 +664,7 @@ MonoBehaviour:
   var3: {fileID: 1607831492}
   var4: {fileID: 2043904660}
   commandIde: {fileID: 972455856}
+  telaFinal: {fileID: 81938259}
   erros: {fileID: 1454792800}
 --- !u!114 &341007774
 MonoBehaviour:
@@ -1187,7 +1188,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 8.493912, z: 4.5904e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 1.4007e-41, z: 0, w: NaN}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -4116,11 +4117,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 341007774}
+      objectReference: {fileID: 341007773}
+    - target: {fileID: 6327488508110411999, guid: d44560e3832a2d14993726f538293182,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Continuar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6327488509045645842, guid: d44560e3832a2d14993726f538293182,
+        type: 3}
+      propertyPath: m_Text
+      value: "Parab\xE9ns\nProjeto encerrado\nO software est\xE1 completo ! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6327488509045645843, guid: d44560e3832a2d14993726f538293182,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 13.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6327488509045645843, guid: d44560e3832a2d14993726f538293182,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 132.8172
+      objectReference: {fileID: 0}
     - target: {fileID: 6327488510016912376, guid: d44560e3832a2d14993726f538293182,
         type: 3}
       propertyPath: m_Name
       value: PanelFim
+      objectReference: {fileID: 0}
+    - target: {fileID: 6327488510016912376, guid: d44560e3832a2d14993726f538293182,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6327488510016912383, guid: d44560e3832a2d14993726f538293182,
         type: 3}

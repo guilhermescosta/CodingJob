@@ -20,6 +20,14 @@ public class IdeSystemLoginInterface : MonoBehaviour
 
     public GameObject telaFinal;
 
+    public GameData gameData;
+
+    private void Awake()
+    {
+        gameData = GameObject.Find("GameData").GetComponent<GameData>();
+        gameData.thisStage = 3;
+    }
+
     public void CreateText()
     {
         string path = Application.dataPath + "/resultado.txt";

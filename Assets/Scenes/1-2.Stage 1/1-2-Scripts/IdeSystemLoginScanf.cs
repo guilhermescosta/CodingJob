@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class IdeSystemLoginScanf : MonoBehaviour
 {
+
+
     public InputField var1;
     int err1;
 
@@ -22,6 +24,14 @@ public class IdeSystemLoginScanf : MonoBehaviour
     public Text erros;
 
     public GameObject telaFinal;
+
+    public GameData gameData;
+
+    private void Awake()
+    {
+        gameData = GameObject.Find("GameData").GetComponent<GameData>();
+        gameData.thisStage = 2;
+    }
 
 
     public void CreateText()
