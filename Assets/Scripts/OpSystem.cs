@@ -27,6 +27,8 @@ public class OpSystem : MonoBehaviour
         SceneManager.LoadScene(5);
     }
 
+
+    // ####################### FASE 1 ############################ 
     public void openEmail1()
     {
 
@@ -57,16 +59,40 @@ public class OpSystem : MonoBehaviour
 
 
 
-
-
-
-
+    //######################### FASE 2 #################################
+    
 
     public void openEmail2()
     {
 
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(13);
     }
+
+    public void openIde2()
+    {
+        SceneManager.LoadScene(15);
+    }
+
+    public void openChat2()
+    {
+        SceneManager.LoadScene(14);
+    }
+
+
+
+    public void BackToOS2()
+    {
+        SceneManager.LoadScene(12);
+    }
+
+
+
+
+
+
+
+
+
 
     public void openEmail3()
     {
@@ -89,10 +115,7 @@ public class OpSystem : MonoBehaviour
 
 
 
-    public void openIde2()
-    {
-        SceneManager.LoadScene(6);
-    }
+   
 
     public void openIde3()
     {
@@ -110,11 +133,6 @@ public class OpSystem : MonoBehaviour
     }
 
 
-
-    public void BackToOS2()
-    {
-        SceneManager.LoadScene(4);
-    }
 
     public void BackToOS3()
     {

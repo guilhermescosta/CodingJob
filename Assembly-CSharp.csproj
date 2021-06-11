@@ -66,13 +66,14 @@
     <Compile Include="Assets\Scenes\1-2.Stage 1\1-2-Scripts\IdeSystemLoginScanf.cs" />
     <Compile Include="Assets\Scenes\1-2.Stage 1\1-3-Scripts\ConsoleSystemLogin.cs" />
     <Compile Include="Assets\Scenes\1-2.Stage 1\1-3-Scripts\IdeSystemLogin.cs" />
+    <Compile Include="Assets\Scenes\2-Stage 2\2-1-Scripts\IdeEnvioPeso.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\Blocks.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\CreatePrintf.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\CreateVariable.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\DragnDrop.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\Stdio.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\Variable.cs" />
-    <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Scripts\IdeCadastroFornecedor.cs" />
+    <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Scripts\OLD_IdeCadastroFornecedor.cs" />
     <Compile Include="Assets\Scenes\3-Stage 3\Stage 3 - Scripts\IdeSystemInsurance.cs" />
     <Compile Include="Assets\Scenes\4-Stage 4\Stage 4 - Scripts\IdeMenuPrincipal.cs" />
     <Compile Include="Assets\Scenes\5-Stage 5\Stage 5 - Scripts\IdeCupomFiscal.cs" />

@@ -71,7 +71,7 @@ public class MainTitle : MonoBehaviour
 
     public void Fase2()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(12);
     }
 
     public void Fase3()

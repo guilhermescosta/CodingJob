@@ -472,7 +472,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Vari\xE1veis"
+  m_Text: "Operadores Aritm\xE9ticos, Relacionais e L\xF3gicos"
 --- !u!222 &135308702
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2829,7 +2829,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1516812131
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4056,7 +4056,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Comandos de Entrada \ne Sa\xEDda"
+  m_Text: "Vari\xE1veis, \nComandos de Entrada \ne de Sa\xEDda"
 --- !u!222 &1946877176
 CanvasRenderer:
   m_ObjectHideFlags: 0
