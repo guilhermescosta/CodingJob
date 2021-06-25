@@ -60,7 +60,7 @@ public class MainTitle : MonoBehaviour
 
     public void CloseScenarioSelectCanvas()
     {
-        selectCanvas.SetActive(false);
+        Application.Quit();
     }
 
     public void Fase1()

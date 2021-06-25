@@ -37,6 +37,9 @@ public class OpSystem : MonoBehaviour
 
     public void openIde1()
     {
+        if (gameData == null)
+            gameData.thisStage = 1;
+
         if(gameData.thisStage ==1 )
             SceneManager.LoadScene(8);
         if (gameData.thisStage == 2)
@@ -48,7 +51,7 @@ public class OpSystem : MonoBehaviour
 
     public void openChat1()
     {
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene(11);
     }
 
     public void BackToOS1()

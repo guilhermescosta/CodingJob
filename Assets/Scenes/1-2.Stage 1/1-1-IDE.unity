@@ -947,6 +947,7 @@ MonoBehaviour:
   var3: {fileID: 1016054133}
   erros: {fileID: 1658528492}
   telaFinal: {fileID: 208635579}
+  gameData: {fileID: 0}
 --- !u!114 &799770164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -959,6 +960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a59295a9a5f2e41878c3a69ffd7f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameData: {fileID: 0}
 --- !u!114 &799770165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1715,13 +1717,13 @@ PrefabInstance:
       value: "Ol\xE1 Alan, vamos come\xE7ar criando a interface b\xE1sica do sistema
         de login.\nPreciso que crie um formato para depois seguirmos com a autentica\xE7\xE3o
         do sistema.\nPrimeiro, quero que crie o cabe\xE7alho da empresa. J\xE1 criei
-        o efeito, basta que voc\xEA insira o comando para jogar na tela o nome da
-        empresa (lembre, \xE9 MegaLoja, tudo junto e com o L em mai\xFAsculo).\nLogo
-        ap\xF3s, voc\xEA precisa criar as impress\xF5es de para indicar as entradas
-        de Usu\xE1rio do sistema e Senha. Os termos que vamos para os campos s\xE3o:\n-
-        Usuario (por enquanto, sem acento ag\xFAdo)\n- Senha\nPara melhorar o visual,
-        lembre fazer uma quebra de linha seguida de uma tabula\xE7\xE3o antes de
-        inserir o texto.\n--Haskell\r\n\n"
+        o efeito, basta que voc\xEA insira o comando para apresentar na tela o nome
+        da empresa (lembre, \xE9 MegaLoja, tudo junto e com o L em mai\xFAsculo).\nLogo
+        ap\xF3s, voc\xEA precisa criar as impress\xF5es para indicar as entradas
+        de Usu\xE1rio do sistema e Senha. Os termos que vamos  usar para os campos
+        s\xE3o:\n- Usuario (por enquanto, sem acento agudo)\n- Senha\nPara melhorar
+        o visual, lembre de fazer uma quebra de linha seguida de uma tabula\xE7\xE3o
+        antes de inserir o texto.\n--Haskell\r"
       objectReference: {fileID: 0}
     - target: {fileID: 765088495562268763, guid: ee578891275a8ef4b8c2937d0ae8ce27,
         type: 3}
@@ -2445,7 +2447,7 @@ PrefabInstance:
     - target: {fileID: 6498001067565624398, guid: b2586403e0cb09744b5f7d88d63870a4,
         type: 3}
       propertyPath: m_Text
-      value: "Verifica\xE7\xE3o Login"
+      value: Interface Login
       objectReference: {fileID: 0}
     - target: {fileID: 6498001067565624401, guid: b2586403e0cb09744b5f7d88d63870a4,
         type: 3}

@@ -793,13 +793,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\r\n\r\nOl\xE1 Alan, seu primeiro projeto ser\xE1 desenvolver um sistema
-    de autentica\xE7\xE3o para a MegaLoja. Seu papel \xE9 criar o design b\xE1sico
-    da tela.\r\nSua segunda tarefa ser\xE1 ler esses dados.\r\nPor fim, a \xFAltima
-    tarefa ser\xE1 validar os dados de usuario e senha.\r\n\r\nLembre sempre de utilizar
-    ; ao final de cada instru\xE7\xE3o e tenha muito cuidado com os espa\xE7os entre
-    os caracteres.\r\nQuando estiver pronto, aperte na seta verde para iniciar a
-    compila\xE7\xE3o do projeto.\r\n\r\nAgora acesse sua IDE e comece a programar.\r\n\r\n--Haskell"
+  m_Text: "\r\n\r\nOl\xE1 Alan, primeiro projeto ser\xE1 desenvolver um sistema de
+    autentica\xE7\xE3o para a MegaLoja. Seu papel \xE9 criar o design b\xE1sico da
+    tela.\r\nSua segunda tarefa ser\xE1 ler os dados de entrada do login.\nPor fim,
+    a \xFAltima tarefa ser\xE1 validar os dados de usuario e senha.\r\n\r\nLembre
+    sempre de utilizar ; ao final de cada instru\xE7\xE3o e tenha muito cuidado com
+    os espa\xE7os entre os caracteres.\r\nQuando estiver pronto, aperte na seta verde
+    para iniciar a compila\xE7\xE3o do projeto.\r\n\r\nAgora acesse sua IDE e comece
+    a programar.\r\n\r\n--Haskell"
 --- !u!222 &801173276
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -929,6 +930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a59295a9a5f2e41878c3a69ffd7f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameData: {fileID: 0}
 --- !u!4 &845106954
 Transform:
   m_ObjectHideFlags: 0

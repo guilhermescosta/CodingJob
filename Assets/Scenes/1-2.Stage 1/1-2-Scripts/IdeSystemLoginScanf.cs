@@ -70,18 +70,18 @@ public class IdeSystemLoginScanf : MonoBehaviour
     public void PlayButton()
     {
 
-        if (string.Compare(var4.text, "scanf(\"%d\",&senha);") != 0)
+        if (string.Compare(var4.text.Replace(" ",""), "scanf(\"%d\",&senha);") != 0)
         {
             err4++;
             erros.text = "Erro na linha leitura variavel senha  ";
-            Debug.Log("scanf(\"%d\",&senha);");
+           
         }
 
-        if (string.Compare(var3.text, "scanf(\"%s\",&usuario);") != 0)
+        if (string.Compare(var3.text.Replace(" ",""), "scanf(\"%s\",&usuario);") != 0)
         {
             err3++;
             erros.text = "Erro na linha leitura variavel usuario  ";
-            Debug.Log("scanf(\"%s\",&usuario);");
+           
         }
 
         if (string.Compare(var2.text, "int senha=0;") != 0)
@@ -96,7 +96,7 @@ public class IdeSystemLoginScanf : MonoBehaviour
             erros.text = "Erro na linha definicao variavel usuario  ";
         }
 
-        if (string.Compare(var1.text, "char usuario[20];") != 0 || string.Compare(var2.text, "int senha=0;") != 0 || string.Compare(var3.text, "scanf(\"%s\",&usuario);") != 0 || string.Compare(var4.text, "scanf(\"%d\",&senha);") != 0)
+        if (string.Compare(var1.text, "char usuario[20];") != 0 || string.Compare(var2.text, "int senha=0;") != 0 || string.Compare(var3.text.Replace(" ",""), "scanf(\"%s\",&usuario);") != 0 || string.Compare(var4.text.Replace(" ",""), "scanf(\"%d\",&senha);") != 0)
         {
             Debug.Log(var4);
 

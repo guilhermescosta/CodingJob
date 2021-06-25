@@ -8,12 +8,24 @@ public class GameData: MonoBehaviour
   //  public int totalPoints;
 
     public int thisStage;
+    public static GameData instance;
 
     private void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+        else
+        {
+            instance = this;
+            
+        }
+
         DontDestroyOnLoad(transform.gameObject);
         
-        //_audioSource = GetComponent<AudioSource>();
+        
     }
 
 }

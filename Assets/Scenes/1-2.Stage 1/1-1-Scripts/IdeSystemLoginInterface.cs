@@ -25,7 +25,6 @@ public class IdeSystemLoginInterface : MonoBehaviour
     private void Awake()
     {
         gameData = GameObject.Find("GameData").GetComponent<GameData>();
-        gameData.thisStage = 3;
     }
 
     public void CreateText()
@@ -61,7 +60,7 @@ public class IdeSystemLoginInterface : MonoBehaviour
 
     public void PlayButton()
     {
-        if (string.Compare(var3.text, "printf(\"\\n\\tSenha;\")") != 0)
+        if (string.Compare(var3.text, "printf(\"\\n\\tSenha;\");") != 0)
         {
             err3++;
             erros.text = "Erro na linha senha ";

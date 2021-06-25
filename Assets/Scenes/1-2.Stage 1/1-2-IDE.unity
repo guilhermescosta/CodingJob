@@ -382,6 +382,7 @@ MonoBehaviour:
   var4: {fileID: 1768684986}
   erros: {fileID: 1234461669}
   telaFinal: {fileID: 1191404696}
+  gameData: {fileID: 0}
 --- !u!114 &583143676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,6 +412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a59295a9a5f2e41878c3a69ffd7f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameData: {fileID: 0}
 --- !u!114 &583143678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,7 +452,7 @@ PrefabInstance:
     - target: {fileID: 6498001067565624398, guid: b2586403e0cb09744b5f7d88d63870a4,
         type: 3}
       propertyPath: m_Text
-      value: "Verifica\xE7\xE3o Login"
+      value: Ler Login
       objectReference: {fileID: 0}
     - target: {fileID: 6498001067565624401, guid: b2586403e0cb09744b5f7d88d63870a4,
         type: 3}
@@ -2353,11 +2355,11 @@ PrefabInstance:
       value: "Muito bem Alan, agora precisamos criar um programa que leia os valores
         de usuario e senha.\nPrimeiro, quero que crie as vari\xE1veis:\n-usuario,
         vari\xE1vel char que recebe 20 caracteres.\n-senha, vari\xE1vel num\xE9rica
-        que recebera n\xFAmeros inteiros.\nUse os nomes das vari\xE1veis exatamente
-        como escrevi acima, caso contr\xE1rio teremos problemas quando integrarmos
-        o c\xF3digo.\n\nPara ler os valores, lembre de utilizar o comando Scanf.
-        Se tiver alguma d\xFAvida na sua utiliza\xE7\xE3o, consulte Pascal e ele
-        lhe dar\xE1 maiores informa\xE7\xF5es.\n\n--Haskell\r\n\n"
+        que recebera n\xFAmeros inteiros e deve ser iniciada em 0 (zero).\nUse os
+        nomes das vari\xE1veis exatamente como escrevi acima, caso contr\xE1rio teremos
+        problemas quando integrarmos o c\xF3digo.\n\nPara ler os valores, lembre
+        de utilizar o comando scanf(). Se tiver alguma d\xFAvida na sua utiliza\xE7\xE3o,
+        consulte Pascal e ele lhe dar\xE1 maiores informa\xE7\xF5es.\n\n--Haskell\r\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 765088495562268763, guid: ee578891275a8ef4b8c2937d0ae8ce27,
         type: 3}

@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scenes\1-2.Stage 1\1-3-Scripts\ConsoleSystemLogin.cs" />
     <Compile Include="Assets\Scenes\1-2.Stage 1\1-3-Scripts\IdeSystemLogin.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\2-1-Scripts\IdeEnvioPeso.cs" />
+    <Compile Include="Assets\Scenes\2-Stage 2\2-2-Scripts\IdeParcelamento.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\Blocks.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\CreatePrintf.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\CreateVariable.cs" />
