@@ -60,24 +60,48 @@ public class IdeSystemLoginInterface : MonoBehaviour
 
     public void PlayButton()
     {
-        if (string.Compare(var3.text, "printf(\"\\n\\tSenha;\");") != 0)
+        // printf("\n\tSenha");
+        if (!var3.text.EndsWith(";"))
+        {   err3++;
+            erros.text = "Erro na linha senha, falta o ponto e vírgula final";
+        }
+        else if (string.Compare(var3.text, "printf(\"\\n\\tSenha\");") != 0)
         {
             err3++;
             erros.text = "Erro na linha senha ";
         }
 
-        if (string.Compare(var2.text, "printf(\"\\n\\tUsuario\");") != 0)
+        //  printf("\n\tUsuario");
+        if (!var2.text.EndsWith(";"))
+        {
+            err2++;
+            erros.text = "Erro na linha usuário, falta o ponto e vírgula final";
+        }
+        else if (string.Compare(var2.text, "printf(\"\\n\\tUsuario\");") != 0)
         {
             err2++;
             erros.text = "Erro na linha do usuário ";
         }
 
-        if (string.Compare(var1.text, "printf(\"MegaLoja\");") != 0)
+
+        // printf("MegaLoja");
+        if (!var1.text.EndsWith(";"))
+        {
+            err1++;
+            erros.text = "Erro na linha nome da loja, falta o ponto e vírgula final";
+        }
+       else if (string.Compare(var1.text, "printf(\"MegaLoja\");") != 0)
         {
             err1++;
             erros.text = "Erro na linha nome da loja  ";
         }
 
+
+
+
+
+
+        // verificação final da string
         if (string.Compare(var1.text, "printf(\"MegaLoja\");") != 0 || string.Compare(var2.text, "printf(\"\\n\\tUsuario\");") != 0 || string.Compare(var3.text, "printf(\"\\n\\tSenha\");") != 0 )
         {
             Debug.Log("erro");

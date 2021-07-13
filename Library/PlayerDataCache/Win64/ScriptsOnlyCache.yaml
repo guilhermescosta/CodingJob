@@ -46,8 +46,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/0-StartMenu/title.unity:
     - Class: 1
@@ -1852,4 +1850,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/2-Stage 2/2-chatPascal.unity
   - Assets/Scenes/2-Stage 2/2-1-IDE.unity
   - Assets/Scenes/2-Stage 2/2-2-IDE.unity
-  playerPath: C:/Users/guilh/Desktop/Coding Job Windows/Coding Job.exe
+  playerPath: C:/Users/guilh/Desktop/Executavel_CodingJob/Coding Job.exe

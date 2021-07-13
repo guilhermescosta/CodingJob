@@ -35,11 +35,11 @@ public class IdeSystemLogin : MonoBehaviour
         string path = Application.dataPath + "/resultado.txt";
         if (!File.Exists(path))
         {
-            File.WriteAllText(path, "\nFase 1 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3 + " erro4: " + err4 + " erro5: " + err5);
+            File.WriteAllText(path, "\nFase 1-3 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3 + " erro4: " + err4 + " erro5: " + err5);
         }
         else
         {
-            string content = "\nFase 1 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3 + " erro4: " + err4 + " erro5: " + err5;
+            string content = "\nFase 1-3 erro1: " + err1 + " erro2: " + err2 + " erro3: " + err3 + " erro4: " + err4 + " erro5: " + err5;
             File.AppendAllText(path, content);
         }
     }
@@ -61,17 +61,30 @@ public class IdeSystemLogin : MonoBehaviour
 
     public void PlayButton()
     {
-        if (string.Compare(var4.text, "validaSenha;") != 0)
+
+        if (!var4.text.EndsWith(";"))
+        {
+            err5++;
+            erros.text = "Erro no terceiro campo da linha 2, falta o ponto e vírgula final";
+        }
+
+
+        else if (string.Compare(var4.text, "validaSenha;") != 0)
         {
             err5++;
             erros.text = "Erro no terceiro campo da linha 2 ";
         }
+
+
+
 
         if (string.Compare(var3.text, "validaUsuario") != 0)
         {
             err4++;
             erros.text = "Erro no segundo campo da linha 2 ";
         }
+
+
 
         if (string.Compare(var2.text, "validou") != 0)
         {
@@ -80,13 +93,23 @@ public class IdeSystemLogin : MonoBehaviour
         }
 
 
-        if (string.Compare(command1.text.Replace(" ",""), "strcmp(senha,pass);") != 0)
+
+        if (!command1.text.EndsWith(";"))
+        {
+            err2++;
+            erros.text = "Erro no campo 1, falta o ponto e vírgula final";
+        }
+
+        else if (string.Compare(command1.text.Replace(" ",""), "strcmp(senha,pass);") != 0)
         {
             err2++;
             erros.text = "Erro no segundo campo da linha 1 ";
             Debug.Log(command1.text);
         }
 
+       
+        
+        
         // Debug.Log(string.Compare(var1.text, "validaSenha"));
         if (string.Compare(var1.text, "validaSenha") != 0)
         {
@@ -105,7 +128,6 @@ public class IdeSystemLogin : MonoBehaviour
            // commandIde.SetActive(true);
             CreateText();
             telaFinal.SetActive(true);
-}
-
+        }
     }
 }

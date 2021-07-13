@@ -56,7 +56,7 @@ public class IdeEnvioPeso : MonoBehaviour
 
     public void Continuar()
     {
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene(12);
     }
 
     public void PlayButton()

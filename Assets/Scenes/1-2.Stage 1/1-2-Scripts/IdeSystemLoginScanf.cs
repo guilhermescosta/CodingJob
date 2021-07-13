@@ -69,33 +69,63 @@ public class IdeSystemLoginScanf : MonoBehaviour
 
     public void PlayButton()
     {
+        // scanf("%d",&senha);
+        if (!var4.text.EndsWith(";"))
+        {
+            err4++;
+            erros.text = "Erro na linha leitura variavel senha, falta o ponto e vírgula final";
+        }
 
-        if (string.Compare(var4.text.Replace(" ",""), "scanf(\"%d\",&senha);") != 0)
+        else if (string.Compare(var4.text.Replace(" ",""), "scanf(\"%d\",&senha);") != 0)
         {
             err4++;
             erros.text = "Erro na linha leitura variavel senha  ";
            
         }
 
-        if (string.Compare(var3.text.Replace(" ",""), "scanf(\"%s\",&usuario);") != 0)
+        //scanf("%s",&usuario);
+        if (!var3.text.EndsWith(";"))
         {
+            err3++;
+            erros.text = "Erro na linha leitura variavel usuario, falta o ponto e vírgula final";
+        }
+
+       else if (string.Compare(var3.text.Replace(" ",""), "scanf(\"%s\",usuario);") != 0)
+       {
             err3++;
             erros.text = "Erro na linha leitura variavel usuario  ";
            
+       }
+
+        //int senha=0;
+        if (!var2.text.EndsWith(";"))
+        {
+            err2++;
+            erros.text = "Erro na linha definicao variavel senha, falta o ponto e vírgula final";
         }
 
-        if (string.Compare(var2.text, "int senha=0;") != 0)
+        else if (string.Compare(var2.text, "int senha=0;") != 0)
         {
             err2++;
             erros.text = "Erro na linha definicao variavel senha ";
         }
 
+        //char usuario[20];
+        if (!var1.text.EndsWith(";"))
+        {
+            err1++;
+            erros.text = "Erro na linha definicao variavel usuario, falta o ponto e vírgula final";
+        }
         if (string.Compare(var1.text, "char usuario[20];") != 0)
         {
             err1++;
             erros.text = "Erro na linha definicao variavel usuario  ";
         }
 
+
+
+
+        //resultado final
         if (string.Compare(var1.text, "char usuario[20];") != 0 || string.Compare(var2.text, "int senha=0;") != 0 || string.Compare(var3.text.Replace(" ",""), "scanf(\"%s\",&usuario);") != 0 || string.Compare(var4.text.Replace(" ",""), "scanf(\"%d\",&senha);") != 0)
         {
             Debug.Log(var4);

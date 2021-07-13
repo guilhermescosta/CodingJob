@@ -44,7 +44,7 @@ public class IdeParcelamento : MonoBehaviour
 
     public void Continuar()
     {
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(5);
     }
 
     public void PlayButton()
@@ -55,7 +55,8 @@ public class IdeParcelamento : MonoBehaviour
             erros.text = "Erro na linha pagamento por pix ou cartão débito";
         }
 
-        if (string.Compare(var2.text, "valor=valor/parcelas;") != 0)
+
+        else if (string.Compare(var2.text, "valor=valor/parcelas;") != 0)
         {
             err2++;
             erros.text = "Erro na linha valor das parcelas ";
