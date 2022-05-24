@@ -74,7 +74,7 @@ public class IdeMenuPrincipal : MonoBehaviour
 
 
 
-        if (string.Compare(varSwitch.text, "switch(valor)") != 0 || string.Compare(varSwitch.text, "switch(valor)") != 0 || string.Compare(varDefault.text, "default:") != 0)
+        if (string.Compare(varSwitch.text, "switch(valor)") != 0 || string.Compare(varCase.text, "case 4:") != 0 || string.Compare(varDefault.text, "default:") != 0)
         {
             Debug.Log("erro");
         }

@@ -24,8 +24,8 @@ public class IdeEnvioPeso : MonoBehaviour
 
     private void Awake()
     {
-        gameData = GameObject.Find("GameData").GetComponent<GameData>();
-        gameData.thisStage = 3;
+       // gameData = GameObject.Find("GameData").GetComponent<GameData>();
+      //  gameData.thisStage = 3;
     }
 
     public void CreateText()
@@ -56,31 +56,34 @@ public class IdeEnvioPeso : MonoBehaviour
 
     public void Continuar()
     {
-        SceneManager.LoadScene(12);
+        SceneManager.LoadScene(16);
     }
 
     public void PlayButton()
     {
-        if (string.Compare(var3.text, "peso>10") != 0)
+       
+        
+        if (string.Compare(var3.text.Replace(" ",""), "peso>10") != 0)
         {
             err3++;
             erros.text = "Erro na linha peso para transportadora ";
         }
 
-        if (string.Compare(var2.text, "peso>=2&&peso<=10") != 0)
+        if (string.Compare(var2.text.Replace(" ", ""), "peso>=2&&peso<=10") != 0)
         {
             err2++;
             erros.text = "Erro na linha peso para sedex ";
         }
 
-        if (string.Compare(var1.text, "peso<2") != 0)
+        if (string.Compare(var1.text.Replace(" ", ""), "peso<2") != 0)
         {
             err1++;
             erros.text = "Erro na linha peso para carta  ";
         }
 
-        if (string.Compare(var1.text, "peso<2") != 0 || string.Compare(var2.text, "peso>=2&&peso<=10") != 0 || string.Compare(var3.text, "peso>10") != 0)
+        if (string.Compare(var1.text.Replace(" ", ""), "peso<2") != 0 || string.Compare(var2.text.Replace(" ", ""), "peso>=2&&peso<=10") != 0 || string.Compare(var3.text.Replace(" ", ""), "peso>10") != 0)
         {
+           
             Debug.Log("erro");
         }
         else

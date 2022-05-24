@@ -68,7 +68,7 @@ public class IdeParcelamento : MonoBehaviour
             erros.text = "Erro na linha pagamento cartão de crédito  ";
         }
 
-        if (string.Compare(var1.text, "cod_pagamento==1") != 0 || string.Compare(var2.text, "valor=valor/parcelas;") != 0 || string.Compare(var3.text, "cod_pagamento==2||cod_pagamento==3") != 0)
+        if (string.Compare(var1.text.Replace(" ", ""), "cod_pagamento==1") != 0 || string.Compare(var2.text.Replace(" ", ""), "valor=valor/parcelas;") != 0 || string.Compare(var3.text.Replace(" ", ""), "cod_pagamento==2||cod_pagamento==3") != 0)
         {
             Debug.Log("erro");
         }

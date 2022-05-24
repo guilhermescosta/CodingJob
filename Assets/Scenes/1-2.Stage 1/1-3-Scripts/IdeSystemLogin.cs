@@ -28,7 +28,22 @@ public class IdeSystemLogin : MonoBehaviour
 
     //  relatorio
     public Text erros;
-    
+
+    public GameObject marcadorErros1;
+    public Text marcadorErrosText1;
+
+    public GameObject marcadorErros2;
+    public Text marcadorErrosText2;
+
+    public GameObject marcadorErros3;
+    public Text marcadorErrosText3;
+
+    public GameObject marcadorErros4;
+    public Text marcadorErrosText4;
+
+    public GameObject marcadorErros5;
+    public Text marcadorErrosText5;
+
 
     public void CreateText()
     {
@@ -61,18 +76,26 @@ public class IdeSystemLogin : MonoBehaviour
 
     public void PlayButton()
     {
+        marcadorErros1.SetActive(false);
+        marcadorErros2.SetActive(false);
+        marcadorErros3.SetActive(false);
+        marcadorErros4.SetActive(false);
+        marcadorErros5.SetActive(false);
+
 
         if (!var4.text.EndsWith(";"))
         {
             err5++;
-            erros.text = "Erro no terceiro campo da linha 2, falta o ponto e vírgula final";
+            marcadorErros5.SetActive(true);
+            marcadorErrosText5.text = "-Erro no terceiro campo da linha 2, falta o ponto e vírgula final\n";
         }
 
 
-        else if (string.Compare(var4.text, "validaSenha;") != 0)
+        if (string.Compare(var4.text, "validaSenha;") != 0)
         {
             err5++;
-            erros.text = "Erro no terceiro campo da linha 2 ";
+            marcadorErros5.SetActive(true);
+            marcadorErrosText5.text = "-Erro no terceiro campo da linha 2 ";
         }
 
 
@@ -81,7 +104,8 @@ public class IdeSystemLogin : MonoBehaviour
         if (string.Compare(var3.text, "validaUsuario") != 0)
         {
             err4++;
-            erros.text = "Erro no segundo campo da linha 2 ";
+            marcadorErros4.SetActive(true);
+            marcadorErrosText4.text = "-Erro no segundo campo da linha 2 ";
         }
 
 
@@ -89,7 +113,8 @@ public class IdeSystemLogin : MonoBehaviour
         if (string.Compare(var2.text, "validou") != 0)
         {
             err3++;
-            erros.text = "Erro no primeiro campo da linha 2 ";
+            marcadorErros3.SetActive(true);
+            marcadorErrosText3.text = "-Erro no primeiro campo da linha 2 ";
         }
 
 
@@ -97,13 +122,15 @@ public class IdeSystemLogin : MonoBehaviour
         if (!command1.text.EndsWith(";"))
         {
             err2++;
-            erros.text = "Erro no campo 1, falta o ponto e vírgula final";
+            marcadorErros2.SetActive(true);
+            marcadorErrosText2.text = "-Erro no campo 1, falta o ponto e vírgula final\n";
         }
 
-        else if (string.Compare(command1.text.Replace(" ",""), "strcmp(senha,pass);") != 0)
+        if (string.Compare(command1.text.Replace(" ",""), "strcmp(senha,pass);") != 0)
         {
             err2++;
-            erros.text = "Erro no segundo campo da linha 1 ";
+            marcadorErros2.SetActive(true);
+            marcadorErrosText2.text += "-Erro no segundo campo da linha 1 ";
             Debug.Log(command1.text);
         }
 
@@ -114,7 +141,8 @@ public class IdeSystemLogin : MonoBehaviour
         if (string.Compare(var1.text, "validaSenha") != 0)
         {
             err1++;
-            erros.text = "Erro no primeiro campo da linha 1 ";
+            marcadorErros1.SetActive(true);
+            marcadorErrosText1.text = "-Erro no primeiro campo da linha 1 ";
         }
 
 

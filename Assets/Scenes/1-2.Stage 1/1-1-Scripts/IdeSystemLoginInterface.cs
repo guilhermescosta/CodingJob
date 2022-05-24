@@ -18,6 +18,16 @@ public class IdeSystemLoginInterface : MonoBehaviour
 
     public Text erros;
 
+    public GameObject marcadorErros1;
+    public Text marcadorErrosText1;
+
+    public GameObject marcadorErros2;
+    public Text marcadorErrosText2;
+
+    public GameObject marcadorErros3;
+    public Text marcadorErrosText3;
+
+
     public GameObject telaFinal;
 
     public GameData gameData;
@@ -60,27 +70,37 @@ public class IdeSystemLoginInterface : MonoBehaviour
 
     public void PlayButton()
     {
+        //esvazia campos de texto
+        marcadorErrosText1.text = "";
+
+
+
         // printf("\n\tSenha");
         if (!var3.text.EndsWith(";"))
-        {   err3++;
-            erros.text = "Erro na linha senha, falta o ponto e vírgula final";
-        }
-        else if (string.Compare(var3.text, "printf(\"\\n\\tSenha\");") != 0)
         {
+            marcadorErros3.SetActive(true);
             err3++;
-            erros.text = "Erro na linha senha ";
+            marcadorErrosText3.text = "-Erro na linha senha, falta o ponto e vírgula final\n\n";
+        }
+        if (string.Compare(var3.text, "printf(\"\\n\\tSenha\")") != 0)
+        {
+            marcadorErros3.SetActive(true);
+            err3++;
+            marcadorErrosText3.text += "-Erro na linha senha ";
         }
 
         //  printf("\n\tUsuario");
         if (!var2.text.EndsWith(";"))
         {
             err2++;
-            erros.text = "Erro na linha usuário, falta o ponto e vírgula final";
+            marcadorErros2.SetActive(true);
+            marcadorErrosText2.text = "-Erro na linha usuário, falta o ponto e vírgula final\n\n";
         }
-        else if (string.Compare(var2.text, "printf(\"\\n\\tUsuario\");") != 0)
+        if (string.Compare(var2.text, "printf(\"\\n\\tUsuario\")") != 0)
         {
+            marcadorErros2.SetActive(true);
             err2++;
-            erros.text = "Erro na linha do usuário ";
+           marcadorErrosText2.text += "-Erro no texto linha do usuário ";
         }
 
 
@@ -88,12 +108,15 @@ public class IdeSystemLoginInterface : MonoBehaviour
         if (!var1.text.EndsWith(";"))
         {
             err1++;
-            erros.text = "Erro na linha nome da loja, falta o ponto e vírgula final";
+            marcadorErros1.SetActive(true);
+
+            marcadorErrosText1.text = "-Erro na linha nome da loja, falta o ponto e vírgula final\n\n";
         }
-       else if (string.Compare(var1.text, "printf(\"MegaLoja\");") != 0)
+        if (string.Compare(var1.text, "printf(\"MegaLoja\")") != 0)
         {
+            marcadorErros1.SetActive(true);
             err1++;
-            erros.text = "Erro na linha nome da loja  ";
+            marcadorErrosText1.text += "-Erro no texto da linha nome da loja  ";
         }
 
 

@@ -92,7 +92,7 @@ public class OpSystem : MonoBehaviour
 
 
 
-
+    //######################### FASE 3 #################################
 
 
 
@@ -100,56 +100,96 @@ public class OpSystem : MonoBehaviour
     public void openEmail3()
     {
 
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(18);
     }
+
+    public void openIde3()
+    {
+        SceneManager.LoadScene(20);
+    }
+
+    public void BackToOS3()
+    {
+        SceneManager.LoadScene(17);
+    }
+
+    public void openChat3()
+    {
+        SceneManager.LoadScene(19);
+    }
+
+
+
+
+
+
+    //######################### FASE 4 #################################
+
+
 
     public void openEmail4()
     {
 
-        SceneManager.LoadScene(11);
+        SceneManager.LoadScene(22);
     }
+
+   
+
+    public void openChat4()
+    {
+        SceneManager.LoadScene(23);
+    }
+
+
+
+
+
+    public void openIde4()
+    {
+        SceneManager.LoadScene(24);
+    }
+
+
+    public void BackToOS4()
+    {
+        SceneManager.LoadScene(21);
+    }
+
+
+
+
+
+    //######################### FASE 5 #################################
+
 
     public void openEmail5()
     {
 
-        SceneManager.LoadScene(14);
+        SceneManager.LoadScene(26);
     }
 
-
-
-
-   
-
-    public void openIde3()
-    {
-        SceneManager.LoadScene(9);
-    }
-
-    public void openIde4()
-    {
-        SceneManager.LoadScene(12);
-    }
 
     public void openIde5()
     {
-        SceneManager.LoadScene(15);
+        SceneManager.LoadScene(28);
     }
 
-
-
-    public void BackToOS3()
+    public void openIde5_2()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(29);
     }
 
-    public void BackToOS4()
+    public void openChat5()
     {
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(27);
     }
+
+
 
     public void BackToOS5()
     {
-        SceneManager.LoadScene(13);
+        SceneManager.LoadScene(25);
     }
+
 
 }

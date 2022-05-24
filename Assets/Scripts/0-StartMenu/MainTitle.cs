@@ -76,17 +76,17 @@ public class MainTitle : MonoBehaviour
 
     public void Fase3()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(17);
     }
 
     public void Fase4()
     {
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(21);
     }
 
     public void Fase5()
     {
-        SceneManager.LoadScene(13);
+        SceneManager.LoadScene(25);
     }
 
 
