@@ -84,6 +84,14 @@ public class IdeSystemLoginScanf : MonoBehaviour
 
     public void PlayButton()
     {
+        marcadorErros1.SetActive(false);
+        marcadorErrosText1.text = "";
+        marcadorErros2.SetActive(false);
+        marcadorErrosText2.text = "";
+        marcadorErros3.SetActive(false);
+        marcadorErrosText3.text = "";
+        marcadorErros4.SetActive(false);
+        marcadorErrosText4.text = "";
 
         // scanf("%d",&senha);
         if (!var4.text.EndsWith(";"))
@@ -93,7 +101,7 @@ public class IdeSystemLoginScanf : MonoBehaviour
             marcadorErrosText4.text = "-Erro na linha leitura variavel senha, falta o ponto e vírgula final\n";
         }
 
-        if (string.Compare(var4.text.Replace(" ",""), "scanf(\"%d\",&senha);") != 0)
+        else if (string.Compare(var4.text.Replace(" ",""), "scanf(\"%d\",&senha);") != 0)
         {
             err4++;
             marcadorErros4.SetActive(true);
@@ -109,7 +117,7 @@ public class IdeSystemLoginScanf : MonoBehaviour
             marcadorErrosText3.text = "-Erro na linha leitura variavel usuario, falta o ponto e vírgula final\n";
         }
 
-       if (string.Compare(var3.text.Replace(" ",""), "scanf(\"%s\",usuario);") != 0)
+       else if (string.Compare(var3.text.Replace(" ",""), "scanf(\"%s\",usuario);") != 0)
        {
             err3++;
             marcadorErros3.SetActive(true);
@@ -125,7 +133,7 @@ public class IdeSystemLoginScanf : MonoBehaviour
             marcadorErrosText2.text = "-Erro na linha definicao variavel senha, falta o ponto e vírgula final\n";
         }
 
-        if (string.Compare(var2.text, "int senha=0;") != 0)
+        else if (string.Compare(var2.text, "int senha=0;") != 0)
         {
             err2++;
             marcadorErros2.SetActive(true);
@@ -139,12 +147,13 @@ public class IdeSystemLoginScanf : MonoBehaviour
             marcadorErros1.SetActive(true);
             marcadorErrosText1.text = "-Erro na linha definicao variavel usuario, falta o ponto e vírgula final\n";
         }
-        if (string.Compare(var1.text, "char usuario[20];") != 0)
+        else if (string.Compare(var1.text, "char usuario[20];") != 0)
         {
             err1++;
             marcadorErros1.SetActive(true);
             marcadorErrosText1.text += "-Erro na linha definicao variavel usuario  ";
         }
+        
 
 
 

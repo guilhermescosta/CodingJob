@@ -22,6 +22,21 @@ public class IdeParcelamento : MonoBehaviour
 
     public GameData gameData;
 
+
+    // marcadores
+
+    public GameObject marcadorErros1;
+    public Text marcadorErrosText1;
+
+    public GameObject marcadorErros2;
+    public Text marcadorErrosText2;
+
+    public GameObject marcadorErros3;
+    public Text marcadorErrosText3;
+
+
+
+
     private void Awake()
     {
         gameData = GameObject.Find("GameData").GetComponent<GameData>();
@@ -49,24 +64,46 @@ public class IdeParcelamento : MonoBehaviour
 
     public void PlayButton()
     {
-        if (string.Compare(var3.text, "cod_pagamento==2||cod_pagamento==3") != 0)
-        {
-            err3++;
-            erros.text = "Erro na linha pagamento por pix ou cartão débito";
-        }
+
+        marcadorErros1.SetActive(false);
+        marcadorErrosText1.text = "";
+        marcadorErros2.SetActive(false);
+        marcadorErrosText2.text = "";
+        marcadorErros3.SetActive(false);
+        marcadorErrosText3.text = "";
 
 
-        else if (string.Compare(var2.text, "valor=valor/parcelas;") != 0)
-        {
-            err2++;
-            erros.text = "Erro na linha valor das parcelas ";
-        }
 
         if (string.Compare(var1.text, "cod_pagamento==1") != 0)
         {
             err1++;
-            erros.text = "Erro na linha pagamento cartão de crédito  ";
+            marcadorErros1.SetActive(true);
+            marcadorErrosText1.text += "-Erro na linha pagamento cartão de crédito";
         }
+
+
+        if (!var2.text.EndsWith(";"))
+        {
+            err2++;
+            marcadorErros2.SetActive(true);
+            marcadorErrosText2.text = "-falta o ponto e vírgula final\n";
+        }
+        else if (string.Compare(var2.text, "valor=valor/parcelas;") != 0)
+        {
+            err2++;
+            marcadorErros2.SetActive(true);
+            marcadorErrosText2.text += "-Erro na linha pagamento cartão de crédito";
+        }
+
+
+        if (string.Compare(var3.text, "cod_pagamento==2||cod_pagamento==3") != 0)
+        {
+            err3++;
+            marcadorErros3.SetActive(true);
+            marcadorErrosText3.text += "-Erro na linha pagamento por pix ou cartão débito";
+        }
+
+   
 
         if (string.Compare(var1.text.Replace(" ", ""), "cod_pagamento==1") != 0 || string.Compare(var2.text.Replace(" ", ""), "valor=valor/parcelas;") != 0 || string.Compare(var3.text.Replace(" ", ""), "cod_pagamento==2||cod_pagamento==3") != 0)
         {

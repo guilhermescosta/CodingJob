@@ -14,6 +14,8 @@ public class MainTitle : MonoBehaviour
 
     public GameData gameData;
 
+    public GameObject panelSobre; 
+
     private void Awake()
     {
         gameData = GameObject.Find("GameData").GetComponent<GameData>();
@@ -88,6 +90,19 @@ public class MainTitle : MonoBehaviour
     {
         SceneManager.LoadScene(25);
     }
+
+
+    public void MenuSobre()
+    {
+        panelSobre.SetActive(true);
+    }
+
+    public void FecharSobre()
+    {
+        panelSobre.SetActive(false);
+    }
+
+
 
 
 }

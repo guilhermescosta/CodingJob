@@ -25,6 +25,8 @@ ScriptsOnlyBuild:
     - ToolTip
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -51,6 +53,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/0-StartMenu/title.unity:
     - Class: 1
@@ -72,6 +76,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -321,8 +327,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -433,8 +437,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -501,8 +503,6 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -703,8 +703,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -759,6 +757,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -1099,7 +1099,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/3-Stage 3/3-IDE.unity:
+    Assets/Scenes/3-Stage 3/3-1-IDE.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -1943,7 +1943,7 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
-      Hash: 126458a43518519d7460591118d4a149
+      Hash: 788322b053cfbf301905d13eb7484920
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IdeMainCaixa
@@ -1985,7 +1985,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 14b3d2b177dc556bce39103973169e97
+      Hash: 3ca81bfb5b5c77aad413ff02e32fed16
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IdeEnvioPeso
@@ -1997,13 +1997,13 @@ ScriptsOnlyBuild:
     className: IdeSystemLogin
   - hash:
       serializedVersion: 2
-      Hash: c4aaceff10847f13f0396c41f11bc4ed
+      Hash: 04ee38b7bf0d79f16fe710967e0105d6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainTitle
   - hash:
       serializedVersion: 2
-      Hash: 44f7cd82391a4c50e175f55ce36d0d68
+      Hash: 1c97fe96a6aff8e094cb4f245d3fb61f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IdeSystemInsurance
@@ -2081,7 +2081,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 006995ea38737d71d130081451ef067a
+      Hash: ebbdded827d82dff8226d52bf03ae06f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IdeMenuPrincipal
@@ -2153,7 +2153,7 @@ ScriptsOnlyBuild:
     className: Blocks
   - hash:
       serializedVersion: 2
-      Hash: 14b3d2b177dc556bce39103973169e97
+      Hash: 3ca81bfb5b5c77aad413ff02e32fed16
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IdeParcelamento
@@ -2189,7 +2189,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: ff77e5bf5aec04ecfdf258fea23e441b
+      Hash: 6e7b3250746b36537221fe247f187f68
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IdeCupomFiscal
@@ -2695,7 +2695,7 @@ ScriptsOnlyBuild:
   - Assets/Scenes/3-Stage 3/3-os.unity
   - Assets/Scenes/3-Stage 3/3-email.unity
   - Assets/Scenes/3-Stage 3/3-chatPascal.unity
-  - Assets/Scenes/3-Stage 3/3-IDE.unity
+  - Assets/Scenes/3-Stage 3/3-1-IDE.unity
   - Assets/Scenes/4-Stage 4/4-os.unity
   - Assets/Scenes/4-Stage 4/4-email.unity
   - Assets/Scenes/4-Stage 4/4-chatPascal.unity

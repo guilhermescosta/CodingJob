@@ -22,6 +22,18 @@ public class IdeEnvioPeso : MonoBehaviour
 
     public GameData gameData;
 
+    // marcadores de erro
+
+    public GameObject marcadorErros1;
+    public Text marcadorErrosText1;
+
+    public GameObject marcadorErros2;
+    public Text marcadorErrosText2;
+
+    public GameObject marcadorErros3;
+    public Text marcadorErrosText3;
+
+
     private void Awake()
     {
        // gameData = GameObject.Find("GameData").GetComponent<GameData>();
@@ -61,25 +73,38 @@ public class IdeEnvioPeso : MonoBehaviour
 
     public void PlayButton()
     {
-       
-        
-        if (string.Compare(var3.text.Replace(" ",""), "peso>10") != 0)
+
+        marcadorErros1.SetActive(false);
+        marcadorErrosText1.text = "";
+        marcadorErros2.SetActive(false);
+        marcadorErrosText2.text = "";
+        marcadorErros3.SetActive(false);
+        marcadorErrosText3.text = "";
+
+        if (string.Compare(var1.text.Replace(" ", ""), "peso<2") != 0)
         {
-            err3++;
-            erros.text = "Erro na linha peso para transportadora ";
+            err1++;
+            marcadorErros1.SetActive(true);
+            marcadorErrosText1.text += "-Erro na linha peso para carta";
+           
         }
 
         if (string.Compare(var2.text.Replace(" ", ""), "peso>=2&&peso<=10") != 0)
         {
             err2++;
-            erros.text = "Erro na linha peso para sedex ";
+            marcadorErros2.SetActive(true);
+            marcadorErrosText2.text += "-Erro na linha peso para sedex";
+
         }
 
-        if (string.Compare(var1.text.Replace(" ", ""), "peso<2") != 0)
+        if (string.Compare(var3.text.Replace(" ", ""), "peso>10") != 0)
         {
-            err1++;
-            erros.text = "Erro na linha peso para carta  ";
+            err3++;
+            marcadorErros3.SetActive(true);
+            marcadorErrosText3.text += "-Erro na linha peso para transportadora";
+
         }
+
 
         if (string.Compare(var1.text.Replace(" ", ""), "peso<2") != 0 || string.Compare(var2.text.Replace(" ", ""), "peso>=2&&peso<=10") != 0 || string.Compare(var3.text.Replace(" ", ""), "peso>10") != 0)
         {

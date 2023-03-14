@@ -72,6 +72,11 @@ public class IdeSystemLoginInterface : MonoBehaviour
     {
         //esvazia campos de texto
         marcadorErrosText1.text = "";
+        marcadorErros1.SetActive(false);
+        marcadorErrosText2.text = "";
+        marcadorErros2.SetActive(false);
+        marcadorErrosText3.text = "";
+        marcadorErros3.SetActive(false);
 
 
 
@@ -82,7 +87,7 @@ public class IdeSystemLoginInterface : MonoBehaviour
             err3++;
             marcadorErrosText3.text = "-Erro na linha senha, falta o ponto e vírgula final\n\n";
         }
-        if (string.Compare(var3.text, "printf(\"\\n\\tSenha\")") != 0)
+        if (string.Compare(var3.text, "printf(\"\\n\\tSenha\");") != 0)
         {
             marcadorErros3.SetActive(true);
             err3++;
@@ -96,7 +101,7 @@ public class IdeSystemLoginInterface : MonoBehaviour
             marcadorErros2.SetActive(true);
             marcadorErrosText2.text = "-Erro na linha usuário, falta o ponto e vírgula final\n\n";
         }
-        if (string.Compare(var2.text, "printf(\"\\n\\tUsuario\")") != 0)
+         if (string.Compare(var2.text, "printf(\"\\n\\tUsuario\");") != 0)
         {
             marcadorErros2.SetActive(true);
             err2++;
@@ -105,6 +110,7 @@ public class IdeSystemLoginInterface : MonoBehaviour
 
 
         // printf("MegaLoja");
+        
         if (!var1.text.EndsWith(";"))
         {
             err1++;
@@ -112,8 +118,11 @@ public class IdeSystemLoginInterface : MonoBehaviour
 
             marcadorErrosText1.text = "-Erro na linha nome da loja, falta o ponto e vírgula final\n\n";
         }
-        if (string.Compare(var1.text, "printf(\"MegaLoja\")") != 0)
+        
+
+         if (string.Compare(var1.text, "printf(\"MegaLoja\");") != 0)
         {
+            Debug.Log(var1.text);
             marcadorErros1.SetActive(true);
             err1++;
             marcadorErrosText1.text += "-Erro no texto da linha nome da loja  ";

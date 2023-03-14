@@ -12,6 +12,10 @@ public class IdeMainCaixa : MonoBehaviour
     public Text erros;
     public GameObject telaFinal;
 
+    //marcadores
+
+    public GameObject marcadorErros1;
+    public Text marcadorErrosText1;
 
     public void CreateText()
     {
@@ -30,13 +34,16 @@ public class IdeMainCaixa : MonoBehaviour
 
     public void PlayButton()
     {
-        // Debug.Log(string.Compare(var1.text, "validaSenha"));
+        marcadorErros1.SetActive(false);
+        marcadorErrosText1.text = "";
+
+
 
         if (string.Compare(varWhile.text.Replace(" ", ""), "while(codOperacao!=4)") != 0)
         {
-            erros.text = "erro na linha 1, comando while";
             err1++;
-            Debug.Log("erro");
+            marcadorErros1.SetActive(true);
+            marcadorErrosText1.text += "-comando While incorreto";
         }
 
 

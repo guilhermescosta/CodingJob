@@ -63,7 +63,7 @@
     <Compile Include="Assets\Scenes\2-Stage 2\2-1-Scripts\IdeEnvioPeso.cs" />
     <Compile Include="Assets\Scenes\1-2.Stage 1\1-3-Scripts\IdeSystemLogin.cs" />
     <Compile Include="Assets\Scripts\0-StartMenu\MainTitle.cs" />
-    <Compile Include="Assets\Scenes\3-Stage 3\Stage 3 - Scripts\IdeSystemInsurance.cs" />
+    <Compile Include="Assets\Scenes\3-Stage 3\3-1-Scripts\IdeSystemInsurance.cs" />
     <Compile Include="Assets\Scripts\UseItem.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\CreateVariable.cs" />
     <Compile Include="Assets\Scripts\Stage.cs" />
@@ -88,10 +88,10 @@
     <Compile Include="Assets\Scenes\1-2.Stage 1\1-1-Scripts\IdeSystemLoginInterface.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\CreatePrintf.cs" />
     <Compile Include="Assets\Scripts\TextController.cs" />
+    <Compile Include="Assets\Scripts\ChatApp.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Blocks\DragnDrop.cs" />
     <Compile Include="Assets\Scripts\OpSystem.cs" />
     <Compile Include="Assets\Scenes\2-Stage 2\Stage 2 - Scripts\OLD_IdeCadastroFornecedor.cs" />
-    <Compile Include="Assets\Scripts\ChatApp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\resultado.txt" />

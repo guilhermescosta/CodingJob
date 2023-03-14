@@ -77,10 +77,15 @@ public class IdeSystemLogin : MonoBehaviour
     public void PlayButton()
     {
         marcadorErros1.SetActive(false);
+        marcadorErrosText1.text = "";
         marcadorErros2.SetActive(false);
+        marcadorErrosText2.text = "";
         marcadorErros3.SetActive(false);
+        marcadorErrosText3.text = "";
         marcadorErros4.SetActive(false);
+        marcadorErrosText4.text = "";
         marcadorErros5.SetActive(false);
+        marcadorErrosText5.text = "";
 
 
         if (!var4.text.EndsWith(";"))
@@ -91,7 +96,7 @@ public class IdeSystemLogin : MonoBehaviour
         }
 
 
-        if (string.Compare(var4.text, "validaSenha;") != 0)
+        else if (string.Compare(var4.text, "validaSenha;") != 0)
         {
             err5++;
             marcadorErros5.SetActive(true);
@@ -126,7 +131,7 @@ public class IdeSystemLogin : MonoBehaviour
             marcadorErrosText2.text = "-Erro no campo 1, falta o ponto e vírgula final\n";
         }
 
-        if (string.Compare(command1.text.Replace(" ",""), "strcmp(senha,pass);") != 0)
+       else if (string.Compare(command1.text.Replace(" ",""), "strcmp(senha,pass);") != 0)
         {
             err2++;
             marcadorErros2.SetActive(true);
@@ -146,7 +151,7 @@ public class IdeSystemLogin : MonoBehaviour
         }
 
 
-        if (string.Compare(var1.text, "validaSenha") != 0 || string.Compare(command1.text, "strcmp(senha,pass);") != 0  || string.Compare(var2.text, "validou") != 0 || string.Compare(var3.text, "validaUsuario") != 0  || string.Compare(var4.text, "validaSenha;") != 0) {
+        if (string.Compare(var1.text, "validaSenha") != 0 || string.Compare(command1.text.Replace(" ", ""), "strcmp(senha,pass);") != 0  || string.Compare(var2.text, "validou") != 0 || string.Compare(var3.text, "validaUsuario") != 0  || string.Compare(var4.text, "validaSenha;") != 0) {
             Debug.Log("erro");
         }
         else

@@ -19,7 +19,16 @@ public class IdeMenuPrincipal : MonoBehaviour
 
     //    public GameObject commandIde;
 
-    //  relatorio
+    //marcadores
+
+    public GameObject marcadorErros1;
+    public Text marcadorErrosText1;
+
+    public GameObject marcadorErros2;
+    public Text marcadorErrosText2;
+
+    public GameObject marcadorErros3;
+    public Text marcadorErrosText3;
 
 
 
@@ -49,29 +58,35 @@ public class IdeMenuPrincipal : MonoBehaviour
 
     public void PlayButton()
     {
-        // Debug.Log(string.Compare(var1.text, "validaSenha"));
-        
+        marcadorErros1.SetActive(false);
+        marcadorErrosText1.text = "";
+        marcadorErros2.SetActive(false);
+        marcadorErrosText2.text = "";
+        marcadorErros3.SetActive(false);
+        marcadorErrosText3.text = "";
 
-        // linha 2
-        if (string.Compare(varDefault.text, "default:") != 0)
+
+        if (string.Compare(varSwitch.text, "switch(valor)") != 0)
         {
-            erros.text = "erro na linha 3, tratamento de valores fora dos previstos";
-            err3++;
+            err1++;
+            marcadorErros1.SetActive(true);
+            marcadorErrosText1.text += "-o comando Switch esta incorreto";
         }
 
         if (string.Compare(varCase.text, "case 4:") != 0)
         {
-            erros.text = "erro na linha 2, comando case";
             err2++;
+            marcadorErros2.SetActive(true);
+            marcadorErrosText2.text += "-o comando Case esta incorreto";
         }
 
-        if (string.Compare(varSwitch.text, "switch(valor)") != 0)
+
+        if (string.Compare(varDefault.text, "default:") != 0)
         {
-            //Debug.Log("erro");
-            erros.text = "erro na linha 1, comando switch";
-            err1++;
+            err3++;
+            marcadorErros3.SetActive(true);
+            marcadorErrosText3.text += "-o comando Default esta incorreto";
         }
-
 
 
         if (string.Compare(varSwitch.text, "switch(valor)") != 0 || string.Compare(varCase.text, "case 4:") != 0 || string.Compare(varDefault.text, "default:") != 0)
